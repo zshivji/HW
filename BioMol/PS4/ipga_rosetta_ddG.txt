@@ -1,0 +1,1611 @@
+
+Will email: zshivji@caltech.edu
+ddG/submitDDG.py
+   -aas A/1-56 '['"'"'all'"'"']' add
+   -input.inputStructure 5201
+   -rosetta
+Loading attribute 43: 1SS.attr
+Loading attribute 388: 3NY.attr
+Loading attribute 381: 5BU.attr
+Loading attribute 384: 6NT.attr
+Loading attribute 355: 9UY.attr
+Loading attribute 350: 9UY_triad_dihedral.attr
+Loading attribute 395: ABU.attr
+Loading attribute 398: ACH.attr
+Loading attribute 60: ACY.attr
+Loading attribute 437: ATP.attr
+Loading attribute 380: AzF.attr
+Loading attribute 7: B2C.attr
+Loading attribute 4: B2T.attr
+Loading attribute 40: BET.attr
+Loading attribute 366: CBV.attr
+Loading attribute 69: CH6.attr
+Loading attribute 38: CHT.attr
+Loading attribute 331: CR2.attr
+Loading attribute 59: CRO.attr
+Loading attribute 321: EPJ.attr
+Loading attribute 394: FL7.attr
+Loading attribute 222: H5J.attr
+Loading attribute 285: HC4.attr
+Loading attribute 201: HC4_mannual_connect.attr
+Loading attribute 202: HC4_mannual_connect2.attr
+Loading attribute 343: IAC.attr
+Loading attribute 333: KCX.attr
+Loading attribute 220: LIG.attr
+Loading attribute 397: MES.attr
+Loading attribute 45: MOL.attr
+Loading attribute 400: NAD.attr
+Loading attribute 50: NCT.attr
+Loading attribute 106: NRQ (1).attr
+Loading attribute 173: NRQ.attr
+Loading attribute 101: NRQ[1931].attr
+Loading attribute 117: NRQ_Roberto.attr
+Loading attribute 119: NRQ_fromRoberto.attr
+Loading attribute 314: PCA.attr
+Loading attribute 317: PCZ.attr
+Loading attribute 42: POP.attr
+Loading attribute 54: QMR.attr
+Loading attribute 412: SMA.attr
+Loading attribute 387: SO4.attr
+Loading attribute 438: SUB.attr
+Loading attribute 326: TIP.attr
+Loading attribute 386: TLA.attr
+/home/ec2-user/triad-git/apps/ddG/submitDDG.py -aas A/1-56 '['"'"'all'"'"']' add -input.inputStructure 5201 -rosetta --blockUntilFinished --outputJson --mergedPDB --timing
+Contents of /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV/submitDDG.out:Date: Tue Nov 28 03:35:43 UTC 2023
+git revision: edd9f1886
+User patch file selected: /home/ec2-user/triad-git//patch.py
+Applying command line argument: --timing
+
+Using seed = 123456
+Timing:                   ForcefieldOptionSet.py:1497; time    2.06 s /     2.06; mem  548.227 mb "built fff"
+Input structure 5201: 1pga_prepared_rosetta.pdb
+Timing:                          structfileIO.py:383 ; time    0.12 s /     2.18; mem  550.160 mb "read 1pga_prepared_rosetta"
+Timing:                     ForcefieldFactory.py:497 ; time    3.80 s /     5.98; mem  550.832 mb "applying attributes to 1pga_prepared_rosetta"
+User patch file selected: /home/ec2-user/triad-git//patch.py
+DDG sites: A_1, A_2, A_3, A_4, A_5, A_6, A_7, A_8, A_9, A_10, A_11, A_12, A_13, A_14, A_15, A_16, A_17, A_18, A_19, A_20, A_21, A_22, A_23, A_24, A_25, A_26, A_27, A_28, A_29, A_30, A_31, A_32, A_33, A_34, A_35, A_36, A_37, A_38, A_39, A_40, A_41, A_42, A_43, A_44, A_45, A_46, A_47, A_48, A_49, A_50, A_51, A_52, A_53, A_54, A_55, A_56
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_0, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 0 --numberRuns 56
+Processid 11606
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_1, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 1 --numberRuns 56
+Processid 11622
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_2, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 2 --numberRuns 56
+Processid 11648
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_3, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 3 --numberRuns 56
+Processid 11666
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_4, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 4 --numberRuns 56
+Processid 11684
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_5, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 5 --numberRuns 56
+Processid 11708
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_6, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 6 --numberRuns 56
+Processid 11726
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_7, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 7 --numberRuns 56
+Processid 11744
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_8, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 8 --numberRuns 56
+Processid 11768
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_9, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 9 --numberRuns 56
+Processid 11786
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_10, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 10 --numberRuns 56
+Processid 11804
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_11, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 11 --numberRuns 56
+Processid 11822
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_12, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 12 --numberRuns 56
+Processid 11847
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_13, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 13 --numberRuns 56
+Processid 11865
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_14, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 14 --numberRuns 56
+Processid 11883
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_15, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 15 --numberRuns 56
+Processid 11906
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_16, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 16 --numberRuns 56
+Processid 11923
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_17, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 17 --numberRuns 56
+Processid 11941
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_18, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 18 --numberRuns 56
+Processid 11965
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_19, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 19 --numberRuns 56
+Processid 11983
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_20, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 20 --numberRuns 56
+Processid 12001
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_21, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 21 --numberRuns 56
+Processid 12025
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_22, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 22 --numberRuns 56
+Processid 12043
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_23, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 23 --numberRuns 56
+Processid 12061
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_24, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 24 --numberRuns 56
+Processid 12087
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_25, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 25 --numberRuns 56
+Processid 12103
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_26, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 26 --numberRuns 56
+Processid 12121
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_27, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 27 --numberRuns 56
+Processid 12145
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_28, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 28 --numberRuns 56
+Processid 12163
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_29, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 29 --numberRuns 56
+Processid 12182
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_30, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 30 --numberRuns 56
+Processid 12205
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_31, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 31 --numberRuns 56
+Processid 13006
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_32, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 32 --numberRuns 56
+Processid 13117
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_33, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 33 --numberRuns 56
+Processid 13133
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_34, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 34 --numberRuns 56
+Processid 13314
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_35, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 35 --numberRuns 56
+Processid 13496
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_36, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 36 --numberRuns 56
+Processid 13518
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_37, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 37 --numberRuns 56
+Processid 13537
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_38, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 38 --numberRuns 56
+Processid 13556
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_39, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 39 --numberRuns 56
+Processid 13622
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_40, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 40 --numberRuns 56
+Processid 13643
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_41, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 41 --numberRuns 56
+Processid 13662
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_42, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 42 --numberRuns 56
+Processid 15045
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_43, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 43 --numberRuns 56
+Processid 15060
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_44, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 44 --numberRuns 56
+Processid 15082
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_45, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 45 --numberRuns 56
+Processid 15118
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_46, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 46 --numberRuns 56
+Processid 15475
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_47, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 47 --numberRuns 56
+Processid 15509
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_48, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 48 --numberRuns 56
+Processid 15549
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_49, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 49 --numberRuns 56
+Processid 15598
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_50, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 50 --numberRuns 56
+Processid 15918
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_51, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 51 --numberRuns 56
+Processid 15965
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_52, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 52 --numberRuns 56
+Processid 16007
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_53, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 53 --numberRuns 56
+Processid 16316
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_54, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 54 --numberRuns 56
+Processid 16367
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_55, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/siteDDG.py --patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --debug --run 55 --numberRuns 56
+Processid 16409
+
+Submitting: name 3004_submitDDG_1pga_prepared_rosetta_ddg_summary, 3000.0 mb
+From: /home/ec2-user/triad-git/www/data/submitDDG_3004_qHmrdV
+/home/ec2-user/triad-git/apps/ddG/summarizeDDG.py -patch 3004_submitDDG_1pga_prepared_rosetta_ddg_patch.py --struct 5201 --ddgFiles 3004_submitDDG_1pga_prepared_rosetta_ddg*scores*run*json
+Processid 18674
+
+Date: Tue Nov 28 03:46:49 UTC 2023
+git revision: edd9f1886
+User patch file selected: /home/ec2-user/triad-git//patch.py
+Using seed = 123456
+Input structure 5201: 1pga_prepared_rosetta.pdb
+User patch file selected: /home/ec2-user/triad-git//patch.py
+      site      D      E      H      K      R      A      F      I      L      M      V      W      Y      N      Q      S      T      G      P      C
+      A_M1   0.99   0.02  -0.40  -0.73  -0.13  -0.67  -0.49   2.04  -1.16     --  -0.38  -0.68  -0.95   0.02  -0.93   0.38  -0.13  -0.11   1.51  -0.13
+      A_T2   3.60   2.12   1.48   1.61   1.96   2.41   0.56  -0.38   0.51   1.34  -0.75  -1.32   0.26   2.57   1.37   2.63     --   3.84  22.08   1.78
+      A_Y3  11.67  11.05   4.86   9.67  10.76   8.21   0.03   9.38   7.29   6.73   7.94  -0.07     --  10.47  10.09   8.67   7.72  11.04  25.27   8.24
+      A_K4   3.63   0.98  -0.70     --   0.53   0.52  -2.24  -2.59  -0.37  -0.86  -2.56  -2.71  -2.68   2.23   0.11   1.18  -1.30   3.32  36.87   0.19
+      A_L5  10.13   7.65   3.64  10.08  13.76   8.00   2.86   4.67     --   4.96   6.38   6.22   5.95   8.75   5.67   8.79   7.77  10.99  37.83   7.30
+      A_I6   4.48   3.27   1.37   2.26   3.15   3.84  -0.23     --   0.79   2.42   0.22  -0.44  -0.36   3.79   2.48   3.96   1.96   6.21  20.95   2.97
+      A_L7   7.08   4.99   4.13   4.62   6.16   4.44   2.82  -1.28     --   1.78  -0.21   8.16   4.77   5.38   3.49   5.23   2.53   7.88  18.51   3.94
+      A_N8   1.18   0.78  -0.13  -0.32   0.41   0.66  -0.36  -0.28  -1.55   2.22  -0.55  -0.93  -0.41     --  -0.14   1.30   0.73   5.40  58.39   0.37
+      A_G9   8.63  11.72   5.74  14.28  10.79   1.75   7.79  16.13  11.14   8.94  10.51   5.59   5.80   8.88  11.75   2.69   4.86     --  14.66   5.28
+     A_K10   0.77   0.26   0.46     --   0.54   0.29   1.17   0.55  -0.16   0.68   0.28   0.38   0.67   0.45  -0.21   0.86   0.55   1.43   9.60   0.90
+     A_T11   1.43   0.90   1.82   0.36   1.74   1.39   1.17   0.32   0.89   3.97  -0.05   0.05  -0.10   1.50   0.50   1.91     --   2.10  17.99   2.06
+     A_L12   3.57   3.58   1.47   2.12   3.14   3.50   0.12   0.20     --   2.03   0.03  -0.25  -0.38   2.92   2.04   3.68   1.31   5.58  10.72   2.51
+     A_K13   2.82   0.83   0.42     --   0.62   1.15   0.50  -0.64   0.91   0.52  -0.88   0.31   0.03   2.29  -0.02   1.68  -0.09   2.88  36.29   0.39
+     A_G14   3.13   5.44   5.41   5.29   5.77   3.13   8.05   5.03   6.54   4.13   6.52   5.54   7.65   4.36   5.07   2.43   2.54     -- 156.23   4.13
+     A_E15   1.13     --  -1.26  -1.16  -0.38  -0.03  -1.39  -2.61  -1.47  -0.58  -2.64  -1.01  -0.19   0.52  -1.06  -0.03  -1.62   2.12  61.74  -0.42
+     A_T16   4.07   2.94   0.17   1.70   2.73   2.84  -0.58  -0.50   3.14   0.46  -0.95  -1.05  -1.20   2.50   1.42   2.73     --   3.96  49.89   2.04
+     A_T17   3.45   3.33   1.55   1.54   2.40   2.50   1.21   1.24   2.90   2.43   0.78   0.15   0.22   2.03   1.97   1.74     --   3.10  66.96   1.60
+     A_T18   4.05   5.20   2.23   5.41   4.36   2.10   1.78   3.02   3.60   2.27   3.64   1.12   1.11   3.31   4.02   2.12     --   3.59 115.79   2.07
+     A_E19   0.93     --  -0.81  -0.61  -0.00   0.19  -1.62  -2.12  -1.56  -0.07  -2.51  -1.76  -1.95   0.20  -0.64   0.25  -1.69   1.31  21.33  -0.40
+     A_A20   5.10   4.74   3.04   7.36   6.78     --   5.10   8.49   6.24   4.59   2.11   8.11   7.60   5.38   3.19   1.12   1.27   2.14  79.50   1.71
+     A_V21   0.97   0.89   0.18   0.16   1.04   1.15   0.81   0.37   0.05   1.45     --   0.44   0.08   0.21   0.01   0.45  -0.90   2.12  14.65   0.76
+     A_D22     --   1.92   1.71   1.69   0.86   1.02   4.57   3.10   4.11   1.45   2.95   3.30   2.76  -0.31   1.39  -0.03  -0.14   1.04 113.43   0.39
+     A_A23   1.72   1.18  -0.10   0.68   1.39     --   0.94   0.95   1.77   1.02   1.26  -1.25   0.17   1.25   0.57   0.00   0.36   2.37   4.93   1.05
+     A_A24   0.84   0.37   1.00   0.12   0.49     --   1.23  -0.15  -0.21   0.66  -0.47   0.02   0.83   0.28  -0.14   1.02  -0.18   1.56  11.63   0.68
+     A_T25   1.90   1.24   0.46  -0.14   0.94   0.50  -0.47  -0.00  -1.16   0.67  -0.34  -1.19  -0.95   1.57   0.32   1.90     --   2.95  10.50   1.91
+     A_A26   9.53  12.62  14.60  16.78  23.81     --  16.19   8.60  10.02  11.06   4.38  27.64  20.08  11.05  12.59   2.99   3.87   4.73  13.50   5.07
+     A_E27   1.92     --  -2.27  -1.16  -0.06  -1.52  -4.00   0.15  -2.61  -0.98   0.71  -4.20  -4.48   0.81  -1.09   0.46  -0.58   1.26  13.87   0.65
+     A_K28   1.43   0.77   0.70     --   0.59   0.06   0.34  -0.28  -0.54   0.40  -0.02  -1.00  -0.14   0.71  -0.11   1.45   0.44   2.37  12.93   1.37
+     A_V29   2.86   1.48   0.57   1.19   1.46   1.24  -0.91  -0.93  -0.51   0.94     --  -1.90  -1.41   1.84   0.45   2.70   1.05   4.04  14.10   2.32
+     A_F30  11.50  11.17   4.34  12.08  13.38   9.12     --  10.40   7.02   6.41  10.06   2.18   2.24   9.50   9.53  10.56   9.51  12.78  21.80   9.75
+     A_K31   1.69   0.11  -1.01     --  -0.90  -0.06  -0.69  -1.40  -0.84  -0.44  -0.89  -2.24  -0.54   1.05  -0.73   1.12   0.03   2.65  15.06   1.10
+     A_Q32   1.57   0.92   1.07   0.30   0.88   0.35   0.35  -0.05  -0.26   0.44   0.32  -1.57   0.00   0.82     --   1.64   0.68   2.47  12.45   1.50
+     A_Y33   5.24   4.69   2.50   4.24   4.27   3.68   0.39   2.18   2.02   2.96   2.75   0.20     --   4.38   3.59   4.68   3.10   6.13  17.18   5.01
+     A_A34   5.43   8.82   8.67  13.52  10.43     --   8.35   4.73   4.23   6.53   1.67  11.15   8.08   5.65   8.82   1.82   1.42   3.99  14.29   2.17
+     A_N35   0.95   0.32  -1.10  -0.52   0.47  -0.28  -2.64  -0.11  -1.51  -0.96  -0.03  -2.83  -2.94     --  -0.59   0.35   0.14   1.74  11.30   0.72
+     A_D36     --   0.18  -0.15  -0.65   0.21  -0.27  -0.32   0.55  -1.06  -0.01   1.19  -2.16  -1.06  -0.64  -0.65  -0.73  -0.31   0.93   9.44   0.35
+     A_N37   1.40   0.88  -1.54  -0.46   0.49   1.48  -1.17   1.70  -0.67   0.20  -0.18  -1.50  -1.66     --  -0.48   1.08  -1.04   2.87  24.63   0.26
+     A_G38   7.60   7.50   6.70   6.63   6.86   6.66   7.58   7.90   6.94   6.64   8.45   4.84   6.98   4.39   6.25   7.04   7.25     --  19.04   6.00
+     A_V39   6.88   6.50   4.90   8.92   6.94   5.78   9.32  -0.28   2.47   4.49     --  18.75  10.11   5.64   4.96   5.96   3.10   8.52  20.46   4.72
+     A_D40     --   1.02  -0.11   0.50   0.42   1.37  -0.15  -0.23   0.50   1.25  -0.21  -0.33   0.15  -0.26   0.95   0.66   0.23   4.13  60.12   0.27
+     A_G41  17.34  20.43  22.76  25.20  27.30   9.14  23.99  26.82  21.91  17.86  20.61  30.85  26.56  18.63  20.26   8.90  12.68     --  53.40   8.72
+     A_E42   0.56     --  -0.17  -0.96  -0.08  -0.11   0.03  -0.93  -0.89   0.05  -1.24  -0.77  -0.65   0.08  -0.72   0.14  -0.96   1.37   8.01   0.18
+     A_W43  12.31  10.49   8.75  10.89  11.09  10.52   5.39   6.88   6.61   7.35   7.26     --   5.69  11.05   9.61  10.79   8.12  12.34  18.04  10.17
+     A_T44   3.25   2.16   0.59   0.81   1.67   2.43  -0.43  -0.00   0.88   1.29  -0.04   0.20  -0.92   1.97   0.94   2.08     --   2.94  42.78   0.97
+     A_Y45   7.94   6.34   2.33   6.70   6.26   6.73   0.84   5.17   5.01   5.73   4.57   0.90     --   6.62   5.28   6.48   4.90   9.44  73.12   5.96
+     A_D46     --   1.07  -0.07   0.10   0.37   1.64  -1.24  -1.27  -0.64   0.65  -1.20  -1.42  -1.34   0.32   0.17   1.40   0.14   3.91  14.98   0.57
+     A_D47     --  -0.36  -0.80  -0.56  -0.17  -1.08   0.20   0.57   1.79   0.80   0.50  -1.32  -0.50  -0.38  -0.52  -1.41   0.05   0.19   1.54  -0.38
+     A_A48   0.34   0.35   0.43  -0.03   0.60     --   1.00   2.34  -0.13   0.57   1.78   0.74   0.63  -0.07  -0.18  -0.42  -0.60   1.07   8.00   0.25
+     A_T49   1.77   2.73   0.28   1.28   1.55   2.30   0.94   2.03   1.30   3.49   1.40   1.44   0.01   0.37   0.84   1.36     --   3.29  41.36   1.16
+     A_K50   1.49   1.43  -1.94     --   0.22   2.13  -0.42   5.65   0.29   0.47   3.84  -2.65  -1.66  -0.36   1.24   2.45   3.17   1.74 105.43   1.11
+     A_T51   5.36   3.33   3.55   2.53   2.83   2.23   2.31  -0.40   2.49   1.41  -0.51   2.13   2.20   4.70   2.35   2.77     --   5.63  43.58   2.05
+     A_F52  12.50  10.84   5.45  10.49   9.11   8.44     --   6.64   6.66   7.54   7.17  -0.45   2.33  10.76   9.91   9.67   9.12  12.23  21.74   8.85
+     A_T53   4.23   2.08   1.26   0.12   1.10   2.19   1.47  -1.78   0.67   0.48  -1.62   0.58   2.60   3.16   0.45   2.30     --   5.09  64.80   1.64
+     A_V54   6.83   6.32  11.27  13.07  15.40   5.27   7.27   3.52   5.40   8.25     --   7.89   6.74   6.43   7.76   5.88   4.58   8.84  26.85   4.27
+     A_T55   3.26   1.61   1.17   0.94   1.41   1.12   1.58  -0.71   1.75   0.26  -0.82   1.65   1.13   2.71   0.44   1.44     --   3.38  29.95   1.06
+     A_E56   2.53     --   1.85   0.97   1.28   1.10   1.65  -0.31   0.86  -0.28  -0.41  -0.46   1.07   2.16   1.05   1.78   1.02   2.43  12.83   1.35
+
+
+
+Sorted by ddG per site:
+      site        1        2        3        4        5        6        7        8        9       10       11       12       13       14       15       16       17       18       19
+      A_M1  -1.16 L  -0.95 Y  -0.93 Q  -0.73 K  -0.68 W  -0.67 A  -0.49 F  -0.40 H  -0.38 V  -0.13 R  -0.13 T  -0.13 C  -0.11 G   0.02 N   0.02 E   0.38 S   0.99 D   1.51 P   2.04 I
+      A_T2  -1.32 W  -0.75 V  -0.38 I   0.26 Y   0.51 L   0.56 F   1.34 M   1.37 Q   1.48 H   1.61 K   1.78 C   1.96 R   2.12 E   2.41 A   2.57 N   2.63 S   3.60 D   3.84 G  22.08 P
+      A_Y3  -0.07 W   0.03 F   4.86 H   6.73 M   7.29 L   7.72 T   7.94 V   8.21 A   8.24 C   8.67 S   9.38 I   9.67 K  10.09 Q  10.47 N  10.76 R  11.04 G  11.05 E  11.67 D  25.27 P
+      A_K4  -2.71 W  -2.68 Y  -2.59 I  -2.56 V  -2.24 F  -1.30 T  -0.86 M  -0.70 H  -0.37 L   0.11 Q   0.19 C   0.52 A   0.53 R   0.98 E   1.18 S   2.23 N   3.32 G   3.63 D  36.87 P
+      A_L5   2.86 F   3.64 H   4.67 I   4.96 M   5.67 Q   5.95 Y   6.22 W   6.38 V   7.30 C   7.65 E   7.77 T   8.00 A   8.75 N   8.79 S  10.08 K  10.13 D  10.99 G  13.76 R  37.83 P
+      A_I6  -0.44 W  -0.36 Y  -0.23 F   0.22 V   0.79 L   1.37 H   1.96 T   2.26 K   2.42 M   2.48 Q   2.97 C   3.15 R   3.27 E   3.79 N   3.84 A   3.96 S   4.48 D   6.21 G  20.95 P
+      A_L7  -1.28 I  -0.21 V   1.78 M   2.53 T   2.82 F   3.49 Q   3.94 C   4.13 H   4.44 A   4.62 K   4.77 Y   4.99 E   5.23 S   5.38 N   6.16 R   7.08 D   7.88 G   8.16 W  18.51 P
+      A_N8  -1.55 L  -0.93 W  -0.55 V  -0.41 Y  -0.36 F  -0.32 K  -0.28 I  -0.14 Q  -0.13 H   0.37 C   0.41 R   0.66 A   0.73 T   0.78 E   1.18 D   1.30 S   2.22 M   5.40 G  58.39 P
+      A_G9   1.75 A   2.69 S   4.86 T   5.28 C   5.59 W   5.74 H   5.80 Y   7.79 F   8.63 D   8.88 N   8.94 M  10.51 V  10.79 R  11.14 L  11.72 E  11.75 Q  14.28 K  14.66 P  16.13 I
+     A_K10  -0.21 Q  -0.16 L   0.26 E   0.28 V   0.29 A   0.38 W   0.45 N   0.46 H   0.54 R   0.55 T   0.55 I   0.67 Y   0.68 M   0.77 D   0.86 S   0.90 C   1.17 F   1.43 G   9.60 P
+     A_T11  -0.10 Y  -0.05 V   0.05 W   0.32 I   0.36 K   0.50 Q   0.89 L   0.90 E   1.17 F   1.39 A   1.43 D   1.50 N   1.74 R   1.82 H   1.91 S   2.06 C   2.10 G   3.97 M  17.99 P
+     A_L12  -0.38 Y  -0.25 W   0.03 V   0.12 F   0.20 I   1.31 T   1.47 H   2.03 M   2.04 Q   2.12 K   2.51 C   2.92 N   3.14 R   3.50 A   3.57 D   3.58 E   3.68 S   5.58 G  10.72 P
+     A_K13  -0.88 V  -0.64 I  -0.09 T  -0.02 Q   0.03 Y   0.31 W   0.39 C   0.42 H   0.50 F   0.52 M   0.62 R   0.83 E   0.91 L   1.15 A   1.68 S   2.29 N   2.82 D   2.88 G  36.29 P
+     A_G14   2.43 S   2.54 T   3.13 D   3.13 A   4.13 M   4.13 C   4.36 N   5.03 I   5.07 Q   5.29 K   5.41 H   5.44 E   5.54 W   5.77 R   6.52 V   6.54 L   7.65 Y   8.05 F 156.23 P
+     A_E15  -2.64 V  -2.61 I  -1.62 T  -1.47 L  -1.39 F  -1.26 H  -1.16 K  -1.06 Q  -1.01 W  -0.58 M  -0.42 C  -0.38 R  -0.19 Y  -0.03 S  -0.03 A   0.52 N   1.13 D   2.12 G  61.74 P
+     A_T16  -1.20 Y  -1.05 W  -0.95 V  -0.58 F  -0.50 I   0.17 H   0.46 M   1.42 Q   1.70 K   2.04 C   2.50 N   2.73 S   2.73 R   2.84 A   2.94 E   3.14 L   3.96 G   4.07 D  49.89 P
+     A_T17   0.15 W   0.22 Y   0.78 V   1.21 F   1.24 I   1.54 K   1.55 H   1.60 C   1.74 S   1.97 Q   2.03 N   2.40 R   2.43 M   2.50 A   2.90 L   3.10 G   3.33 E   3.45 D  66.96 P
+     A_T18   1.11 Y   1.12 W   1.78 F   2.07 C   2.10 A   2.12 S   2.23 H   2.27 M   3.02 I   3.31 N   3.59 G   3.60 L   3.64 V   4.02 Q   4.05 D   4.36 R   5.20 E   5.41 K 115.79 P
+     A_E19  -2.51 V  -2.12 I  -1.95 Y  -1.76 W  -1.69 T  -1.62 F  -1.56 L  -0.81 H  -0.64 Q  -0.61 K  -0.40 C  -0.07 M  -0.00 R   0.19 A   0.20 N   0.25 S   0.93 D   1.31 G  21.33 P
+     A_A20   1.12 S   1.27 T   1.71 C   2.11 V   2.14 G   3.04 H   3.19 Q   4.59 M   4.74 E   5.10 D   5.10 F   5.38 N   6.24 L   6.78 R   7.36 K   7.60 Y   8.11 W   8.49 I  79.50 P
+     A_V21  -0.90 T   0.01 Q   0.05 L   0.08 Y   0.16 K   0.18 H   0.21 N   0.37 I   0.44 W   0.45 S   0.76 C   0.81 F   0.89 E   0.97 D   1.04 R   1.15 A   1.45 M   2.12 G  14.65 P
+     A_D22  -0.31 N  -0.14 T  -0.03 S   0.39 C   0.86 R   1.02 A   1.04 G   1.39 Q   1.45 M   1.69 K   1.71 H   1.92 E   2.76 Y   2.95 V   3.10 I   3.30 W   4.11 L   4.57 F 113.43 P
+     A_A23  -1.25 W  -0.10 H   0.00 S   0.17 Y   0.36 T   0.57 Q   0.68 K   0.94 F   0.95 I   1.02 M   1.05 C   1.18 E   1.25 N   1.26 V   1.39 R   1.72 D   1.77 L   2.37 G   4.93 P
+     A_A24  -0.47 V  -0.21 L  -0.18 T  -0.15 I  -0.14 Q   0.02 W   0.12 K   0.28 N   0.37 E   0.49 R   0.66 M   0.68 C   0.83 Y   0.84 D   1.00 H   1.02 S   1.23 F   1.56 G  11.63 P
+     A_T25  -1.19 W  -1.16 L  -0.95 Y  -0.47 F  -0.34 V  -0.14 K  -0.00 I   0.32 Q   0.46 H   0.50 A   0.67 M   0.94 R   1.24 E   1.57 N   1.90 D   1.90 S   1.91 C   2.95 G  10.50 P
+     A_A26   2.99 S   3.87 T   4.38 V   4.73 G   5.07 C   8.60 I   9.53 D  10.02 L  11.05 N  11.06 M  12.59 Q  12.62 E  13.50 P  14.60 H  16.19 F  16.78 K  20.08 Y  23.81 R  27.64 W
+     A_E27  -4.48 Y  -4.20 W  -4.00 F  -2.61 L  -2.27 H  -1.52 A  -1.16 K  -1.09 Q  -0.98 M  -0.58 T  -0.06 R   0.15 I   0.46 S   0.65 C   0.71 V   0.81 N   1.26 G   1.92 D  13.87 P
+     A_K28  -1.00 W  -0.54 L  -0.28 I  -0.14 Y  -0.11 Q  -0.02 V   0.06 A   0.34 F   0.40 M   0.44 T   0.59 R   0.70 H   0.71 N   0.77 E   1.37 C   1.43 D   1.45 S   2.37 G  12.93 P
+     A_V29  -1.90 W  -1.41 Y  -0.93 I  -0.91 F  -0.51 L   0.45 Q   0.57 H   0.94 M   1.05 T   1.19 K   1.24 A   1.46 R   1.48 E   1.84 N   2.32 C   2.70 S   2.86 D   4.04 G  14.10 P
+     A_F30   2.18 W   2.24 Y   4.34 H   6.41 M   7.02 L   9.12 A   9.50 N   9.51 T   9.53 Q   9.75 C  10.06 V  10.40 I  10.56 S  11.17 E  11.50 D  12.08 K  12.78 G  13.38 R  21.80 P
+     A_K31  -2.24 W  -1.40 I  -1.01 H  -0.90 R  -0.89 V  -0.84 L  -0.73 Q  -0.69 F  -0.54 Y  -0.44 M  -0.06 A   0.03 T   0.11 E   1.05 N   1.10 C   1.12 S   1.69 D   2.65 G  15.06 P
+     A_Q32  -1.57 W  -0.26 L  -0.05 I   0.00 Y   0.30 K   0.32 V   0.35 F   0.35 A   0.44 M   0.68 T   0.82 N   0.88 R   0.92 E   1.07 H   1.50 C   1.57 D   1.64 S   2.47 G  12.45 P
+     A_Y33   0.20 W   0.39 F   2.02 L   2.18 I   2.50 H   2.75 V   2.96 M   3.10 T   3.59 Q   3.68 A   4.24 K   4.27 R   4.38 N   4.68 S   4.69 E   5.01 C   5.24 D   6.13 G  17.18 P
+     A_A34   1.42 T   1.67 V   1.82 S   2.17 C   3.99 G   4.23 L   4.73 I   5.43 D   5.65 N   6.53 M   8.08 Y   8.35 F   8.67 H   8.82 Q   8.82 E  10.43 R  11.15 W  13.52 K  14.29 P
+     A_N35  -2.94 Y  -2.83 W  -2.64 F  -1.51 L  -1.10 H  -0.96 M  -0.59 Q  -0.52 K  -0.28 A  -0.11 I  -0.03 V   0.14 T   0.32 E   0.35 S   0.47 R   0.72 C   0.95 D   1.74 G  11.30 P
+     A_D36  -2.16 W  -1.06 Y  -1.06 L  -0.73 S  -0.65 K  -0.65 Q  -0.64 N  -0.32 F  -0.31 T  -0.27 A  -0.15 H  -0.01 M   0.18 E   0.21 R   0.35 C   0.55 I   0.93 G   1.19 V   9.44 P
+     A_N37  -1.66 Y  -1.54 H  -1.50 W  -1.17 F  -1.04 T  -0.67 L  -0.48 Q  -0.46 K  -0.18 V   0.20 M   0.26 C   0.49 R   0.88 E   1.08 S   1.40 D   1.48 A   1.70 I   2.87 G  24.63 P
+     A_G38   4.39 N   4.84 W   6.00 C   6.25 Q   6.63 K   6.64 M   6.66 A   6.70 H   6.86 R   6.94 L   6.98 Y   7.04 S   7.25 T   7.50 E   7.58 F   7.60 D   7.90 I   8.45 V  19.04 P
+     A_V39  -0.28 I   2.47 L   3.10 T   4.49 M   4.72 C   4.90 H   4.96 Q   5.64 N   5.78 A   5.96 S   6.50 E   6.88 D   6.94 R   8.52 G   8.92 K   9.32 F  10.11 Y  18.75 W  20.46 P
+     A_D40  -0.33 W  -0.26 N  -0.23 I  -0.21 V  -0.15 F  -0.11 H   0.15 Y   0.23 T   0.27 C   0.42 R   0.50 L   0.50 K   0.66 S   0.95 Q   1.02 E   1.25 M   1.37 A   4.13 G  60.12 P
+     A_G41   8.72 C   8.90 S   9.14 A  12.68 T  17.34 D  17.86 M  18.63 N  20.26 Q  20.43 E  20.61 V  21.91 L  22.76 H  23.99 F  25.20 K  26.56 Y  26.82 I  27.30 R  30.85 W  53.40 P
+     A_E42  -1.24 V  -0.96 T  -0.96 K  -0.93 I  -0.89 L  -0.77 W  -0.72 Q  -0.65 Y  -0.17 H  -0.11 A  -0.08 R   0.03 F   0.05 M   0.08 N   0.14 S   0.18 C   0.56 D   1.37 G   8.01 P
+     A_W43   5.39 F   5.69 Y   6.61 L   6.88 I   7.26 V   7.35 M   8.12 T   8.75 H   9.61 Q  10.17 C  10.49 E  10.52 A  10.79 S  10.89 K  11.05 N  11.09 R  12.31 D  12.34 G  18.04 P
+     A_T44  -0.92 Y  -0.43 F  -0.04 V  -0.00 I   0.20 W   0.59 H   0.81 K   0.88 L   0.94 Q   0.97 C   1.29 M   1.67 R   1.97 N   2.08 S   2.16 E   2.43 A   2.94 G   3.25 D  42.78 P
+     A_Y45   0.84 F   0.90 W   2.33 H   4.57 V   4.90 T   5.01 L   5.17 I   5.28 Q   5.73 M   5.96 C   6.26 R   6.34 E   6.48 S   6.62 N   6.70 K   6.73 A   7.94 D   9.44 G  73.12 P
+     A_D46  -1.42 W  -1.34 Y  -1.27 I  -1.24 F  -1.20 V  -0.64 L  -0.07 H   0.10 K   0.14 T   0.17 Q   0.32 N   0.37 R   0.57 C   0.65 M   1.07 E   1.40 S   1.64 A   3.91 G  14.98 P
+     A_D47  -1.41 S  -1.32 W  -1.08 A  -0.80 H  -0.56 K  -0.52 Q  -0.50 Y  -0.38 N  -0.38 C  -0.36 E  -0.17 R   0.05 T   0.19 G   0.20 F   0.50 V   0.57 I   0.80 M   1.54 P   1.79 L
+     A_A48  -0.60 T  -0.42 S  -0.18 Q  -0.13 L  -0.07 N  -0.03 K   0.25 C   0.34 D   0.35 E   0.43 H   0.57 M   0.60 R   0.63 Y   0.74 W   1.00 F   1.07 G   1.78 V   2.34 I   8.00 P
+     A_T49   0.01 Y   0.28 H   0.37 N   0.84 Q   0.94 F   1.16 C   1.28 K   1.30 L   1.36 S   1.40 V   1.44 W   1.55 R   1.77 D   2.03 I   2.30 A   2.73 E   3.29 G   3.49 M  41.36 P
+     A_K50  -2.65 W  -1.94 H  -1.66 Y  -0.42 F  -0.36 N   0.22 R   0.29 L   0.47 M   1.11 C   1.24 Q   1.43 E   1.49 D   1.74 G   2.13 A   2.45 S   3.17 T   3.84 V   5.65 I 105.43 P
+     A_T51  -0.51 V  -0.40 I   1.41 M   2.05 C   2.13 W   2.20 Y   2.23 A   2.31 F   2.35 Q   2.49 L   2.53 K   2.77 S   2.83 R   3.33 E   3.55 H   4.70 N   5.36 D   5.63 G  43.58 P
+     A_F52  -0.45 W   2.33 Y   5.45 H   6.64 I   6.66 L   7.17 V   7.54 M   8.44 A   8.85 C   9.11 R   9.12 T   9.67 S   9.91 Q  10.49 K  10.76 N  10.84 E  12.23 G  12.50 D  21.74 P
+     A_T53  -1.78 I  -1.62 V   0.12 K   0.45 Q   0.48 M   0.58 W   0.67 L   1.10 R   1.26 H   1.47 F   1.64 C   2.08 E   2.19 A   2.30 S   2.60 Y   3.16 N   4.23 D   5.09 G  64.80 P
+     A_V54   3.52 I   4.27 C   4.58 T   5.27 A   5.40 L   5.88 S   6.32 E   6.43 N   6.74 Y   6.83 D   7.27 F   7.76 Q   7.89 W   8.25 M   8.84 G  11.27 H  13.07 K  15.40 R  26.85 P
+     A_T55  -0.82 V  -0.71 I   0.26 M   0.44 Q   0.94 K   1.06 C   1.12 A   1.13 Y   1.17 H   1.41 R   1.44 S   1.58 F   1.61 E   1.65 W   1.75 L   2.71 N   3.26 D   3.38 G  29.95 P
+     A_E56  -0.46 W  -0.41 V  -0.31 I  -0.28 M   0.86 L   0.97 K   1.02 T   1.05 Q   1.07 Y   1.10 A   1.28 R   1.35 C   1.65 F   1.78 S   1.85 H   2.16 N   2.43 G   2.53 D  12.83 P
+
+
+
+Sorted by ddG (all):
+mutant position    score R rotamer R observation R LJ vdW+R solvation R hbond R reference R proline
+A_E27Y       27  -4.4787    -1.680         0.347               -4.877   0.000       1.731
+A_E27W       27  -4.1965    -0.976         0.201               -5.307   0.000       1.886
+A_E27F       27  -4.0024    -1.676         0.301               -4.933   0.000       2.306
+A_N35Y       35  -2.9394     0.819         0.236               -5.948   0.000       1.954
+A_N35W       35  -2.8327     0.380         0.033               -5.297  -0.058       2.109
+ A_K4W        4  -2.7137     0.831        -0.618               -4.585  -0.323       1.981
+ A_K4Y        4  -2.6797    -0.066        -0.608               -3.832   0.000       1.826
+A_K50W       50  -2.6492    -0.116         0.627               -5.142   0.000       1.981
+A_E15V       15  -2.6433    -0.601        -0.946               -2.176   0.249       0.831
+A_N35F       35  -2.6372     0.946         0.288               -6.400   0.000       2.529
+A_E15I       15  -2.6139    -0.500        -0.828               -2.714   0.249       1.180
+A_E27L       27  -2.6107    -0.476        -0.022               -2.992   0.000       0.880
+ A_K4I        4  -2.5910    -0.576        -1.097               -2.193   0.000       1.275
+ A_K4V        4  -2.5587    -0.680        -1.280               -1.525   0.000       0.926
+A_E19V       19  -2.5075    -0.918        -1.526               -0.895   0.000       0.831
+A_E27H       27  -2.2665    -1.278         0.447               -2.980   0.000       1.544
+ A_K4F        4  -2.2435    -0.041        -0.620               -3.984   0.000       2.401
+A_K31W       31  -2.2420     0.542         0.117               -4.882   0.000       1.981
+A_D36W       36  -2.1603     0.746         0.330               -5.168   0.000       1.931
+A_E19I       19  -2.1218    -0.776        -1.541               -0.985   0.000       1.180
+A_E19Y       19  -1.9537    -0.627        -0.419               -2.639   0.000       1.731
+A_K50H       50  -1.9421    -1.260        -0.864               -1.457   0.000       1.639
+A_V29W       29  -1.9001     0.894         0.103               -3.952   0.000       1.055
+A_T53I       53  -1.7839     0.088        -0.638               -2.503   0.000       1.269
+A_E19W       19  -1.7603     0.292        -0.153               -3.785   0.000       1.886
+A_E19T       19  -1.6940    -0.902        -0.662               -0.041   0.000      -0.089
+A_K50Y       50  -1.6592    -1.573         1.248               -3.160   0.000       1.826
+A_N37Y       37  -1.6563     0.031        -0.290               -3.490   0.139       1.954
+A_E19F       19  -1.6226    -0.680        -0.527               -2.722   0.000       2.306
+A_E15T       15  -1.6182    -0.563        -0.167               -1.048   0.249      -0.089
+A_T53V       53  -1.6165    -0.007        -0.790               -1.740   0.000       0.920
+A_Q32W       32  -1.5659    -0.121         0.405               -3.916   0.000       2.066
+A_E19L       19  -1.5645    -0.422        -0.780               -1.243   0.000       0.880
+ A_N8L        8  -1.5515    -0.499         0.853               -3.009   0.000       1.103
+A_N37H       37  -1.5358    -0.302        -0.322               -2.817   0.139       1.767
+A_E27A       27  -1.5208    -1.912        -0.182               -0.052   0.000       0.625
+A_N35L       35  -1.5131    -0.772        -0.362               -1.482   0.000       1.103
+A_N37W       37  -1.4982     0.221         0.348               -4.315   0.139       2.109
+A_E15L       15  -1.4662    -1.041        -0.306               -1.248   0.249       0.880
+A_D46W       46  -1.4161     1.119         0.373               -5.214   0.376       1.931
+A_V29Y       29  -1.4125     0.213         0.267               -2.792   0.000       0.900
+A_D47S       47  -1.4071    -1.003        -0.212               -0.399   0.000       0.207
+A_K31I       31  -1.4034    -1.717        -0.141               -0.821   0.000       1.275
+A_E15F       15  -1.3862    -0.322        -0.546               -3.073   0.249       2.306
+A_D46Y       46  -1.3387     0.474         0.442               -4.407   0.376       1.776
+ A_T2W        2  -1.3248     0.719         0.544               -4.563   0.000       1.975
+A_D47W       47  -1.3216     0.110         0.336               -3.699   0.000       1.931
+ A_K4T        4  -1.3005    -0.628        -0.662               -0.016   0.000       0.006
+ A_L7I        7  -1.2783    -2.519        -0.517                1.458   0.000       0.300
+A_D46I       46  -1.2699    -0.034        -0.580               -2.257   0.376       1.225
+A_E15H       15  -1.2630    -0.550        -0.092               -2.413   0.249       1.544
+A_A23W       23  -1.2512     0.886         0.356               -3.755   0.000       1.261
+A_E42V       42  -1.2370    -0.994        -0.347               -0.727   0.000       0.831
+A_D46F       46  -1.2362     0.390         0.125               -4.479   0.376       2.351
+A_D46V       46  -1.2048    -0.225        -0.382               -1.850   0.376       0.876
+A_T16Y       16  -1.2030    -0.276         0.678               -3.674   0.249       1.820
+A_T25W       25  -1.1902     0.962        -0.215               -4.320   0.408       1.975
+A_N37F       37  -1.1662     0.021        -0.011               -3.845   0.139       2.529
+A_E27K       27  -1.1624    -0.112         0.168               -1.123   0.000      -0.095
+ A_M1L        1  -1.1610    -0.830         0.000               -0.229   0.000      -0.102
+A_E15K       15  -1.1563     0.002        -0.214               -1.098   0.249      -0.095
+A_T25L       25  -1.1561     0.470        -0.562               -2.442   0.408       0.969
+A_N35H       35  -1.0975     0.598         0.114               -3.576   0.000       1.767
+A_E27Q       27  -1.0903     0.174         0.075               -1.160   0.000      -0.180
+A_D47A       47  -1.0782    -1.117         0.152               -0.783   0.000       0.670
+A_D36Y       36  -1.0625     0.637         0.739               -4.215   0.000       1.776
+A_D36L       36  -1.0615    -0.496         0.451               -1.942   0.000       0.925
+A_E15Q       15  -1.0553    -0.531        -0.203               -0.389   0.249      -0.180
+A_T16W       16  -1.0467     0.439         1.002               -4.712   0.249       1.975
+A_N37T       37  -1.0442    -0.659        -0.330               -0.164  -0.026       0.134
+A_E15W       15  -1.0147     0.509         0.293               -3.951   0.249       1.886
+A_K31H       31  -1.0106     0.106         0.277               -2.307  -0.726       1.639
+A_K28W       28  -0.9961     0.317         0.158               -3.453   0.000       1.981
+A_E27M       27  -0.9776    -0.244         0.096               -1.812   0.000       0.982
+A_N35M       35  -0.9620    -0.476        -0.439               -1.253   0.000       1.205
+A_E42T       42  -0.9593    -0.891         0.074               -0.053   0.000      -0.089
+A_E42K       42  -0.9588    -0.084        -0.119               -0.661   0.000      -0.095
+ A_M1Y        1  -0.9493    -0.541         0.000               -1.694   0.536       0.749
+A_T25Y       25  -0.9469     0.173        -0.053               -3.295   0.408       1.820
+A_T16V       16  -0.9457    -0.645         0.424               -1.893   0.249       0.920
+ A_N8W        8  -0.9341     0.333         0.841               -4.217   0.000       2.109
+ A_M1Q        1  -0.9331    -0.273         0.000               -0.034   0.536      -1.162
+A_V29I       29  -0.9305     0.075        -0.143               -1.211   0.000       0.349
+A_E42I       42  -0.9292    -0.805        -0.392               -0.912   0.000       1.180
+A_T44Y       44  -0.9183     0.204         0.292               -3.078  -0.156       1.820
+A_V29F       29  -0.9072     0.219         0.203               -2.804   0.000       1.475
+A_V21T       21  -0.9024    -0.039        -0.913                0.970   0.000      -0.920
+A_K31R       31  -0.9021     0.137        -0.085               -0.032  -0.875      -0.048
+A_E42L       42  -0.8949    -0.411        -0.235               -1.129   0.000       0.880
+A_K31V       31  -0.8933    -1.794         0.019               -0.044   0.000       0.926
+A_K13V       13  -0.8815    -0.589        -0.908               -0.311   0.000       0.926
+ A_K4M        4  -0.8639     0.632        -0.485               -2.088   0.000       1.077
+A_K31L       31  -0.8424    -1.201        -0.200               -0.417   0.000       0.975
+A_T55V       55  -0.8210    -0.022        -0.796               -0.923   0.000       0.920
+A_E19H       19  -0.8099    -0.343        -0.329               -1.681   0.000       1.544
+A_D47H       47  -0.8024    -0.392         0.236               -2.235   0.000       1.589
+A_E42W       42  -0.7671     0.441        -0.456               -2.639   0.000       1.886
+ A_T2V        2  -0.7529     0.052        -0.806               -0.919   0.000       0.920
+A_D36S       36  -0.7348    -0.429        -0.160               -0.108  -0.245       0.207
+ A_M1K        1  -0.7293    -0.335         0.000                0.682   0.000      -1.077
+A_K31Q       31  -0.7274    -0.635        -0.131                0.124  -0.000      -0.085
+A_E42Q       42  -0.7218    -0.006         0.017               -0.553   0.000      -0.180
+A_T55I       55  -0.7093     0.090        -0.699               -1.369   0.000       1.269
+ A_K4H        4  -0.7023     0.273        -0.175               -2.439   0.000       1.639
+A_K31F       31  -0.6887    -0.391         0.192               -2.891   0.000       2.401
+ A_M1W        1  -0.6836    -0.576         0.000               -1.548   0.536       0.904
+A_N37L       37  -0.6687    -0.620         0.328               -1.617   0.139       1.103
+ A_M1A        1  -0.6680    -1.044         0.000                0.197   0.536      -0.357
+A_D36K       36  -0.6535     0.096         0.503               -1.202   0.000      -0.050
+A_E42Y       42  -0.6491    -0.286        -0.048               -2.046   0.000       1.731
+A_D36Q       36  -0.6455     0.290         0.267               -1.068   0.000      -0.135
+A_D46L       46  -0.6444     0.139         0.114               -2.335   0.513       0.925
+A_D36N       36  -0.6407    -0.000         0.212               -0.675   0.000      -0.178
+A_E19Q       19  -0.6383     0.092        -0.075               -0.475   0.000      -0.180
+A_K13I       13  -0.6367    -0.462        -0.695               -0.754   0.000       1.275
+A_E19K       19  -0.6124    -0.016        -0.033               -0.469   0.000      -0.095
+A_A48T       48  -0.6029     0.102        -0.152                0.479  -0.318      -0.714
+A_N35Q       35  -0.5914     0.506        -0.375               -0.765   0.000       0.043
+A_E15M       15  -0.5835     0.615        -0.196               -2.233   0.249       0.982
+A_T16F       16  -0.5829    -0.214         0.680               -3.692   0.249       2.395
+A_E27T       27  -0.5760    -1.571         0.572                1.034  -0.522      -0.089
+A_D47K       47  -0.5615     0.352         0.312               -1.176   0.000      -0.050
+ A_N8V        8  -0.5483    -0.462         1.137               -2.277   0.000       1.054
+A_K28L       28  -0.5450    -0.547        -0.226               -0.747   0.000       0.975
+A_K31Y       31  -0.5410    -0.508         0.260               -2.119   0.000       1.826
+A_D47Q       47  -0.5225     0.505         0.192               -1.085   0.000      -0.135
+A_N35K       35  -0.5172     0.374        -0.226               -0.794   0.000       0.128
+A_T51V       51  -0.5149    -0.036        -0.833               -0.929   0.364       0.920
+A_V29L       29  -0.5098     0.302        -0.245               -0.616   0.000       0.049
+A_D47Y       47  -0.5013    -0.212         0.655               -2.720   0.000       1.776
+A_T16I       16  -0.4979    -0.035         0.688               -2.669   0.249       1.269
+ A_M1F        1  -0.4857    -0.971         0.000               -1.375   0.536       1.324
+A_N37Q       37  -0.4766     0.153         0.332               -1.143   0.139       0.043
+A_T25F       25  -0.4737     0.179        -0.122               -3.334   0.408       2.395
+A_A24V       24  -0.4680    -0.006        -0.147               -0.520   0.000       0.206
+A_E56W       56  -0.4645     1.703         0.000               -5.212   1.158       1.886
+A_N37K       37  -0.4596     0.405         0.197               -1.328   0.139       0.128
+A_F52W       52  -0.4450     0.169         0.032               -0.227   0.000      -0.420
+A_K31M       31  -0.4369    -0.906        -0.095               -0.513   0.000       1.077
+ A_I6W        6  -0.4368    -0.269         1.123               -2.032   0.035       0.706
+A_T44F       44  -0.4350     0.205         0.379               -3.470   0.056       2.395
+A_A48S       48  -0.4234     0.127        -0.312                0.604  -0.378      -0.463
+A_E15C       15  -0.4203    -0.489        -0.360               -0.475   0.249       0.654
+A_K50F       50  -0.4177    -1.525         1.922               -3.216   0.000       2.401
+ A_N8Y        8  -0.4140     0.915        -0.031               -3.253   0.000       1.954
+A_E56V       56  -0.4100    -1.090         0.000               -1.309   1.158       0.831
+A_T51I       51  -0.4006     0.651        -0.724               -1.960   0.364       1.269
+A_E19C       19  -0.3995    -0.532        -0.402               -0.119   0.000       0.654
+ A_M1H        1  -0.3980    -0.550         0.000               -0.946   0.536       0.562
+ A_T2I        2  -0.3817     0.188        -0.766               -1.073   0.000       1.269
+A_L12Y       12  -0.3780     0.153         0.450               -1.472  -0.360       0.851
+ A_M1V        1  -0.3780    -1.023         0.000                0.259   0.536      -0.151
+A_E15R       15  -0.3775     0.036        -0.353               -0.167   0.249      -0.143
+A_D47N       47  -0.3761     0.313         0.131               -0.643   0.000      -0.178
+A_D47C       47  -0.3757    -0.498         0.300               -0.877   0.000       0.699
+ A_K4L        4  -0.3716     1.212        -0.382               -2.177   0.000       0.975
+ A_I6Y        6  -0.3628    -0.761         1.231               -1.419   0.035       0.551
+ A_N8F        8  -0.3616     0.016        -0.244               -2.663   0.000       2.529
+A_K50N       50  -0.3607    -0.668        -1.281                1.716   0.000      -0.128
+A_D47E       47  -0.3575     0.197         0.061               -0.661   0.000       0.045
+A_T25V       25  -0.3447    -0.043        -0.337               -1.294   0.408       0.920
+A_D40W       40  -0.3346    -0.120         0.803               -2.949   0.000       1.931
+ A_N8K        8  -0.3223     0.205         1.011               -1.667   0.000       0.128
+A_D36F       36  -0.3213     0.601         0.897               -4.170   0.000       2.351
+A_D36T       36  -0.3140    -0.515         0.596               -0.109  -0.242      -0.044
+A_D22N       22  -0.3120     0.345        -0.258               -0.194  -0.027      -0.178
+A_E56I       56  -0.3066    -0.900         0.000               -1.745   1.158       1.180
+ A_N8I        8  -0.2821    -0.350         1.752               -3.088   0.000       1.403
+A_N35A       35  -0.2801    -1.225        -0.434                0.531   0.000       0.848
+A_E56M       56  -0.2799    -0.019         0.000               -2.401   1.158       0.982
+A_V39I       39  -0.2795     0.785        -0.140               -1.274   0.000       0.349
+A_K28I       28  -0.2793    -0.735         0.065               -0.884   0.000       1.275
+A_D36A       36  -0.2713    -0.539         0.317               -0.719   0.000       0.670
+A_Q32L       32  -0.2646    -0.452        -0.006               -0.867   0.000       1.060
+A_D40N       40  -0.2628     0.545         0.016               -0.647   0.000      -0.178
+A_L12W       12  -0.2472     1.231         0.346               -2.829   0.000       1.006
+A_D40I       40  -0.2339    -0.032         0.205               -1.632   0.000       1.225
+ A_I6F        6  -0.2313    -0.653         0.866               -1.605   0.035       1.126
+A_D40V       40  -0.2121    -0.130         0.401               -1.359   0.000       0.876
+A_A24L       24  -0.2120     0.519        -0.156               -0.830   0.000       0.255
+ A_L7V        7  -0.2114    -2.575        -0.354                2.767   0.000      -0.049
+A_K10Q       10  -0.2077     0.010        -0.278                0.146   0.000      -0.085
+A_E15Y       15  -0.1930     0.001        -0.456               -1.717   0.249       1.731
+A_N37V       37  -0.1836    -0.637         0.495               -1.234   0.139       1.054
+A_A48Q       48  -0.1819     0.925        -0.061               -0.199  -0.041      -0.805
+A_A24T       24  -0.1766     0.036         0.286                0.215   0.000      -0.714
+A_D47R       47  -0.1720     0.546         0.246               -0.865   0.000      -0.098
+A_E42H       42  -0.1662    -0.160         0.114               -1.687   0.023       1.544
+A_K10L       10  -0.1568    -0.595        -0.215               -0.322   0.000       0.975
+A_A24I       24  -0.1547     0.089        -0.186               -0.613   0.000       0.555
+A_D36H       36  -0.1529     0.649         0.326               -2.716   0.000       1.589
+A_D40F       40  -0.1508     0.167         0.409               -3.078   0.000       2.351
+A_A24Q       24  -0.1406     0.790        -0.095               -0.031   0.000      -0.805
+ A_N8Q        8  -0.1402     0.106         1.163               -1.453   0.000       0.043
+A_D22T       22  -0.1393    -0.503         0.141               -0.330   0.597      -0.044
+A_K28Y       28  -0.1389    -0.133         0.362               -2.194   0.000       1.826
+A_T25K       25  -0.1364     0.864        -0.353               -1.050   0.408      -0.006
+ A_M1R        1  -0.1333     0.230         0.000                0.762   0.000      -1.125
+ A_N8H        8  -0.1326    -0.125        -0.023               -1.751   0.000       1.767
+ A_M1T        1  -0.1325    -1.016         0.000                1.838   0.117      -1.071
+A_A48L       48  -0.1277     0.053        -0.116               -0.320   0.000       0.255
+ A_M1C        1  -0.1274    -0.740         0.000                0.404   0.536      -0.328
+A_D40H       40  -0.1133     0.775         0.259               -2.737   0.000       1.589
+ A_M1G        1  -0.1132    -1.469         0.000                1.596   0.536      -0.777
+A_E42A       42  -0.1129    -1.012         0.250                0.024   0.000       0.625
+A_K28Q       28  -0.1089     0.011        -0.211                0.176   0.000      -0.085
+A_N35I       35  -0.1059     0.126         0.207               -1.842   0.000       1.403
+A_A23H       23  -0.0997     0.981        -0.002               -1.998   0.000       0.919
+A_T11Y       11  -0.0975     0.275         0.122               -2.315   0.000       1.820
+A_K13T       13  -0.0885    -0.073        -0.469                0.448   0.000       0.006
+A_E42R       42  -0.0804     0.391         0.020               -0.348   0.000      -0.143
+A_E19M       19  -0.0744     0.561        -0.269               -1.348   0.000       0.982
+A_A48N       48  -0.0739     0.512        -0.056                0.318   0.000      -0.848
+A_D46H       46  -0.0679     0.708         0.416               -3.157   0.376       1.589
+ A_Y3W        3  -0.0675     0.478         0.190               -0.890   0.000       0.155
+A_E27R       27  -0.0619     0.647         0.024               -0.590   0.000      -0.143
+A_K31A       31  -0.0551    -1.810        -0.310                1.345   0.000       0.720
+A_Q32I       32  -0.0511    -0.628         0.263               -1.046   0.000       1.360
+A_T11V       11  -0.0483    -0.217        -0.125               -0.626   0.000       0.920
+A_T44V       44  -0.0371    -0.005         0.296               -1.304   0.056       0.920
+A_E15S       15  -0.0324    -0.483         0.009                0.030   0.249       0.162
+A_A48K       48  -0.0294     0.627         0.095               -0.032   0.000      -0.720
+A_D22S       22  -0.0280    -0.574        -0.212               -0.324   0.875       0.207
+A_E15A       15  -0.0258    -1.092         0.632               -0.439   0.249       0.625
+A_N35V       35  -0.0255    -0.911         0.269               -0.438   0.000       1.054
+A_K13Q       13  -0.0169     0.141        -0.111                0.090  -0.052      -0.085
+A_K28V       28  -0.0163    -0.819         0.205               -0.328   0.000       0.926
+A_D36M       36  -0.0088     0.628         0.373               -2.036   0.000       1.027
+A_E19R       19  -0.0050     0.390        -0.168               -0.084   0.000      -0.143
+A_T44I       44  -0.0041     0.014         0.532               -1.875   0.056       1.269
+A_T25I       25  -0.0032     0.031        -0.477               -1.235   0.408       1.269
+A_Q32Y       32   0.0018    -0.240         0.600               -2.269   0.000       1.911
+A_A23S       23   0.0045     0.132        -0.289                0.624   0.000      -0.463
+A_T49Y       49   0.0062     0.173         0.132               -2.426   0.307       1.820
+A_V21Q       21   0.0090     0.756        -0.318                0.582   0.000      -1.011
+ A_M1N        1   0.0183     0.163         0.000                0.525   0.536      -1.205
+A_A24W       24   0.0213     0.837         0.132               -2.208   0.000       1.261
+ A_M1E        1   0.0235     0.025         0.000                0.444   0.536      -0.982
+A_K13Y       13   0.0256     0.702        -0.639               -1.864   0.000       1.826
+A_K31T       31   0.0301    -1.444         0.358                1.870  -0.759       0.006
+A_L12V       12   0.0323    -0.342        -0.481                0.904   0.000      -0.049
+A_E42F       42   0.0323    -0.063        -0.162               -2.071   0.023       2.306
+ A_Y3F        3   0.0340     0.137        -0.196               -0.482   0.000       0.575
+A_D47T       47   0.0495    -1.426         0.348                1.171   0.000      -0.044
+A_V21L       21   0.0524    -0.009        -0.268                0.281   0.000       0.049
+A_E42M       42   0.0531    -0.287        -0.028               -0.613   0.000       0.982
+A_T11W       11   0.0537     1.212        -0.307               -2.826   0.000       1.975
+A_K28A       28   0.0596    -0.852        -0.386                0.577   0.000       0.720
+A_E42N       42   0.0784    -0.269         0.425                0.145   0.000      -0.223
+A_V21Y       21   0.0796     0.084        -0.327               -0.577   0.000       0.900
+A_D46K       46   0.1019     1.046         0.612               -1.909   0.403      -0.050
+ A_K4Q        4   0.1128     0.502        -0.084               -0.220   0.000      -0.085
+A_K31E       31   0.1131    -0.899        -0.209                1.125   0.000       0.095
+A_L12F       12   0.1158     0.240         0.117               -1.667   0.000       1.426
+A_A24K       24   0.1167     0.880         0.041               -0.085   0.000      -0.720
+A_T53K       53   0.1183     0.784         0.480               -1.139   0.000      -0.006
+A_D46T       46   0.1367    -0.210         0.627               -0.613   0.376      -0.044
+A_E42S       42   0.1378    -0.636         0.267                0.345   0.000       0.162
+A_N35T       35   0.1406    -0.872         0.198                1.034  -0.354       0.134
+A_D40Y       40   0.1456     0.048         1.219               -2.897   0.000       1.776
+A_E27I       27   0.1523    -1.507         0.088                0.391   0.000       1.180
+A_T17W       17   0.1540    -0.186         1.067               -2.950   0.249       1.975
+A_V21K       21   0.1565     0.592        -0.089                0.580   0.000      -0.926
+A_D46Q       46   0.1707     0.940         0.579               -1.589   0.376      -0.135
+A_A23Y       23   0.1712     1.083         0.725               -2.743   0.000       1.106
+A_T16H       16   0.1732     0.106         0.681               -2.495   0.249       1.633
+A_E42C       42   0.1754    -0.543         0.202               -0.137   0.000       0.654
+A_V21H       21   0.1770     0.312        -0.686               -0.162   0.000       0.713
+A_D36E       36   0.1795     0.381         0.218               -0.464   0.000       0.045
+A_E19A       19   0.1873    -0.935         0.563               -0.066   0.000       0.625
+ A_K4C        4   0.1882    -0.588        -0.219                0.247   0.000       0.749
+A_D47G       47   0.1904    -1.117         0.944                0.113   0.000       0.250
+A_E19N       19   0.1951    -0.097         0.260                0.302  -0.047      -0.223
+A_L12I       12   0.1955    -0.164        -0.673                0.660   0.072       0.300
+A_D47F       47   0.1965    -0.025         0.643               -2.773   0.000       2.351
+A_Y33W       33   0.1978     1.403         0.033               -1.393   0.000       0.155
+A_T44W       44   0.1994     0.706         0.661               -3.199   0.056       1.975
+A_N37M       37   0.2038     0.124         0.588               -1.852   0.139       1.205
+A_D36R       36   0.2073     0.609         0.587               -0.843  -0.047      -0.098
+A_V21N       21   0.2074     0.548        -0.189                0.902   0.000      -1.054
+A_T17Y       17   0.2162    -0.209         0.628               -2.271   0.249       1.820
+ A_I6V        6   0.2226    -0.266         0.177                0.661   0.000      -0.349
+A_K50R       50   0.2234     0.722        -0.079                0.113  -0.485      -0.048
+A_D40T       40   0.2341    -0.006         0.835               -0.513  -0.038      -0.044
+A_E19S       19   0.2508    -0.624         0.405                0.307   0.000       0.162
+A_A48C       48   0.2546     0.229         0.040               -0.043   0.000       0.029
+ A_T2Y        2   0.2555     0.505         0.305               -2.374   0.000       1.820
+A_K10E       10   0.2566     0.037        -0.392                0.516   0.000       0.095
+A_N37C       37   0.2632    -0.383         0.019               -0.388   0.139       0.877
+A_T55M       55   0.2637     1.326         0.243               -2.377   0.000       1.071
+A_D40C       40   0.2683    -0.008         0.416               -0.839   0.000       0.699
+A_K10V       10   0.2777    -0.705         0.155               -0.098   0.000       0.926
+A_T49H       49   0.2779     0.357         0.032               -2.052   0.307       1.633
+A_A24N       24   0.2831     0.339         0.518                0.273   0.000      -0.848
+A_K50L       50   0.2929    -1.584         2.290               -1.389   0.000       0.975
+A_K10A       10   0.2936    -0.810        -0.012                0.396   0.000       0.720
+A_Q32K       32   0.3007    -0.043         0.232                0.026   0.000       0.085
+A_K13W       13   0.3088     0.807        -0.565               -1.914   0.000       1.981
+A_T25Q       25   0.3180     1.048        -0.511               -0.536   0.408      -0.091
+A_N35E       35   0.3192     0.518        -0.502                0.081   0.000       0.223
+A_Q32V       32   0.3197    -0.823         0.379               -0.247   0.000       1.011
+A_T11I       11   0.3199     0.010        -0.181               -0.778   0.000       1.269
+A_D46N       46   0.3248     0.773         0.202               -0.467  -0.005      -0.178
+A_A48D       48   0.3389     0.539        -0.055                0.524   0.000      -0.670
+A_K28F       28   0.3428    -0.128         0.353               -2.283   0.000       2.401
+A_A48E       48   0.3460     0.847        -0.137                0.262   0.000      -0.625
+A_D36C       36   0.3464    -0.306         0.567               -0.615   0.000       0.699
+A_N35S       35   0.3491    -0.960        -0.214                1.392  -0.253       0.385
+A_Q32F       32   0.3492    -0.295         0.571               -2.413   0.000       2.486
+A_Q32A       32   0.3542    -0.864        -0.117                0.531   0.000       0.805
+A_T11K       11   0.3593     0.428         0.279               -0.342   0.000      -0.006
+A_A23T       23   0.3612     0.018        -0.054                1.111   0.000      -0.714
+A_V21I       21   0.3657    -0.007         0.073               -0.050   0.000       0.349
+A_A24E       24   0.3659     0.877        -0.248                0.362   0.000      -0.625
+A_T49N       49   0.3705     0.736         0.144               -0.562   0.186      -0.134
+ A_N8C        8   0.3707    -0.348         0.501               -0.659   0.000       0.877
+A_D46R       46   0.3727     1.096         0.680               -1.682   0.376      -0.098
+A_K10W       10   0.3786     0.007         0.308               -1.917  -0.000       1.981
+ A_M1S        1   0.3842    -0.926         0.000                1.971   0.159      -0.820
+A_K13C       13   0.3868    -0.603        -0.428                0.668   0.000       0.749
+A_D22C       22   0.3889    -0.472        -0.021               -0.753   0.936       0.699
+A_Y33F       33   0.3899     0.005        -0.049               -0.141   0.000       0.575
+A_K28M       28   0.3991     0.350        -0.176               -0.852   0.000       1.077
+ A_N8R        8   0.4145     0.463         0.833               -0.961   0.000       0.080
+A_D40R       40   0.4207     1.012         0.396               -0.890   0.000      -0.098
+A_K13H       13   0.4224     0.286        -0.086               -1.207  -0.210       1.639
+A_A48H       48   0.4335     0.606        -0.067               -1.024   0.000       0.919
+A_Q32M       32   0.4413     0.326         0.036               -1.082   0.000       1.162
+A_K28T       28   0.4429    -0.771         0.444                0.827  -0.063       0.006
+A_V21W       21   0.4432     1.403         0.365               -2.380  -0.000       1.055
+A_T55Q       55   0.4435     1.512         0.595               -0.988  -0.585      -0.091
+A_T53Q       53   0.4452     0.874         0.443               -0.781   0.000      -0.091
+A_V21S       21   0.4516     0.102        -0.032                1.050   0.000      -0.669
+A_V29Q       29   0.4528     0.830        -0.197                1.431  -0.600      -1.011
+A_K10N       10   0.4550    -0.475         0.381                0.677   0.000      -0.128
+A_T16M       16   0.4581     2.294         0.993               -3.900   0.000       1.071
+A_K10H       10   0.4588    -0.082         0.135               -1.233   0.000       1.639
+A_E27S       27   0.4599    -1.297         0.671                0.924   0.000       0.162
+A_T25H       25   0.4612     0.592        -0.077               -2.095   0.408       1.633
+A_K50M       50   0.4656    -0.769         0.919               -0.761   0.000       1.077
+A_N35R       35   0.4711     0.563        -0.362                0.190   0.000       0.080
+A_T53M       53   0.4841     0.885         0.293               -1.765   0.000       1.071
+A_A24R       24   0.4873     1.132        -0.045                0.169   0.000      -0.768
+A_N37R       37   0.4933     0.774         0.160               -0.659   0.139       0.080
+A_D40L       40   0.4978     0.288         0.931               -1.646   0.000       0.925
+A_K13F       13   0.5003     0.353        -0.603               -1.651   0.000       2.401
+A_D47V       47   0.5029    -0.248         1.343               -1.469   0.000       0.876
+A_T11Q       11   0.5035     0.693         0.242               -0.341   0.000      -0.091
+A_T25A       25   0.5039    -0.062        -0.653                0.097   0.408       0.714
+A_D40K       40   0.5047     0.614         1.140               -1.200   0.000      -0.050
+ A_T2L        2   0.5080     0.839        -0.007               -1.829   0.536       0.969
+ A_K4A        4   0.5187    -0.796         0.221                0.374   0.000       0.720
+A_K13M       13   0.5201     0.328        -0.190               -0.695   0.000       1.077
+A_E15N       15   0.5221    -0.534        -0.018                1.048   0.249      -0.223
+ A_K4R        4   0.5262     1.369        -0.323               -0.472   0.000      -0.048
+A_K10R       10   0.5449     0.234        -0.166                0.525   0.000      -0.048
+A_K10T       10   0.5453    -0.194         0.395                0.456  -0.118       0.006
+A_K10I       10   0.5468    -0.599         0.190               -0.319   0.000       1.275
+A_D36I       36   0.5491    -0.383         1.438               -1.803   0.072       1.225
+A_E42D       42   0.5600    -0.222         0.087                0.741   0.000      -0.045
+ A_T2F        2   0.5641     0.464         0.191               -2.485   0.000       2.395
+A_A48M       48   0.5662     0.677        -0.064               -0.403   0.000       0.357
+A_A23Q       23   0.5693     1.888        -0.032               -0.482   0.000      -0.805
+A_D47I       47   0.5714    -0.008         1.134               -1.780   0.000       1.225
+A_D46C       46   0.5737     0.055         0.427               -0.984   0.376       0.699
+A_V29H       29   0.5739     0.630         0.250               -1.019   0.000       0.713
+A_T53W       53   0.5789     1.859         0.432               -3.703   0.016       1.975
+A_K28R       28   0.5880     0.303        -0.123                0.456   0.000      -0.048
+A_T44H       44   0.5918     0.700         0.793               -2.591   0.056       1.633
+A_A48R       48   0.5977     1.111         0.029                0.226   0.000      -0.768
+A_K13R       13   0.6180     0.623        -0.269                0.313   0.000      -0.048
+A_A48Y       48   0.6326     0.298         0.668               -1.439   0.000       1.106
+A_E27C       27   0.6535    -1.169         0.705                0.463   0.000       0.654
+A_D46M       46   0.6546     0.994         0.639               -2.381   0.376       1.027
+A_A24M       24   0.6605     0.971        -0.084               -0.584   0.000       0.357
+A_D40S       40   0.6629     0.092         0.878               -0.514   0.000       0.207
+ A_N8A        8   0.6649    -0.734         1.161               -0.610   0.000       0.848
+A_T53L       53   0.6683     0.587         0.241               -1.128   0.000       0.969
+A_T25M       25   0.6706     1.404        -0.474               -1.739   0.408       1.071
+A_K10Y       10   0.6730    -0.137         0.382               -1.398   0.000       1.826
+A_K10M       10   0.6766     0.033        -0.243               -0.191   0.000       1.077
+A_Q32T       32   0.6791    -0.784         0.646                0.782  -0.056       0.091
+A_A24C       24   0.6835     0.182         0.458                0.015   0.000       0.029
+A_A23K       23   0.6844     1.801         0.173               -0.569   0.000      -0.720
+A_K28H       28   0.6968     0.152         0.360               -1.455   0.000       1.639
+A_E27V       27   0.7092    -1.588         0.267                1.199   0.000       0.831
+A_K28N       28   0.7150    -0.531         0.516                0.858   0.000      -0.128
+A_N35C       35   0.7241    -1.031         0.299                0.579   0.000       0.877
+ A_N8T        8   0.7337    -0.527         0.838                0.535  -0.247       0.134
+A_A48W       48   0.7431     0.866         0.244               -1.628   0.000       1.261
+A_V21C       21   0.7621     0.060         0.199                0.680   0.000      -0.177
+A_K28E       28   0.7676     0.047        -0.230                0.855   0.000       0.095
+A_K10D       10   0.7699    -0.426         0.010                1.136   0.000       0.050
+A_T17V       17   0.7810    -0.063         0.797               -0.873   0.000       0.920
+ A_N8E        8   0.7837     0.073         1.003               -0.515   0.000       0.223
+ A_I6L        6   0.7948    -0.950         0.730                1.279   0.035      -0.300
+A_D47M       47   0.7960     0.976         0.212               -1.419   0.000       1.027
+A_V21F       21   0.8078     0.094        -0.148               -0.613   0.000       1.475
+A_E27N       27   0.8087    -0.649         0.839                0.841   0.000      -0.223
+A_T44K       44   0.8121     0.646         0.666               -0.549   0.056      -0.006
+A_Q32N       32   0.8200    -0.549         0.730                0.682   0.000      -0.043
+A_A24Y       24   0.8331     0.416         0.390               -1.079   0.000       1.106
+A_K13E       13   0.8333     0.077        -0.026                0.687   0.000       0.095
+A_Y45F       45   0.8382     0.089         0.247               -0.073   0.000       0.575
+A_A24D       24   0.8388     0.339         0.291                0.879   0.000      -0.670
+A_T49Q       49   0.8444     0.695         0.747               -0.798   0.291      -0.091
+A_D22R       22   0.8600     0.129         1.137               -0.707   0.400      -0.098
+A_E56L       56   0.8623     0.557         0.000               -1.733   1.158       0.880
+A_K10S       10   0.8626    -0.350         0.273                0.772  -0.089       0.257
+A_T44L       44   0.8774     0.066         0.977               -1.191   0.056       0.969
+A_N37E       37   0.8797     0.504         0.427               -0.413   0.139       0.223
+A_Q32R       32   0.8808     0.276         0.104                0.464   0.000       0.037
+A_V21E       21   0.8877     0.692         0.112                0.914   0.000      -0.831
+A_T11L       11   0.8942    -0.054         0.716               -0.737   0.000       0.969
+A_T11E       11   0.8987     0.529         0.171                0.110   0.000       0.089
+A_K10C       10   0.9011    -0.642         0.618                0.176   0.000       0.749
+A_Y45W       45   0.9014     0.799         0.102               -0.155   0.000       0.155
+A_K13L       13   0.9121     1.193        -0.397               -0.858   0.000       0.975
+A_Q32E       32   0.9194     0.025        -0.023                0.737   0.000       0.180
+A_D36G       36   0.9267    -0.539         0.870                0.347   0.000       0.250
+A_E19D       19   0.9317    -0.283         0.402                0.857   0.000      -0.045
+A_V29M       29   0.9352     1.194        -0.160               -0.249   0.000       0.151
+A_T44Q       44   0.9380     0.763         0.771               -0.561   0.055      -0.091
+A_T55K       55   0.9423     1.175         0.714               -0.941   0.000      -0.006
+A_A23F       23   0.9430     1.293         0.656               -2.688   0.000       1.681
+A_T25R       25   0.9432     1.562        -0.444               -0.529   0.408      -0.054
+A_T49F       49   0.9448     0.186         0.551               -2.494   0.307       2.395
+A_A23I       23   0.9466     0.156         1.002               -0.766   0.000       0.555
+A_N35D       35   0.9490    -0.913        -0.142                1.826   0.000       0.178
+A_D40Q       40   0.9501     0.910         1.231               -1.056   0.000      -0.135
+A_T44C       44   0.9691     0.096         0.488               -0.414   0.056       0.743
+A_E56K       56   0.9720     0.714         0.000               -0.651   1.004      -0.095
+A_V21D       21   0.9723     0.449        -0.047                1.446   0.000      -0.876
+ A_K4E        4   0.9811     0.876        -0.121                0.131   0.000       0.095
+ A_M1D        1   0.9851     0.354         0.000                1.971  -0.313      -1.027
+A_A24H       24   1.0004     0.831         0.161               -0.910   0.000       0.919
+A_A48F       48   1.0012     0.283         0.556               -1.519   0.000       1.681
+A_A24S       24   1.0160     0.463         0.598                0.418   0.000      -0.463
+A_D40E       40   1.0170     0.869         0.778               -0.675   0.000       0.045
+A_D22A       22   1.0186    -0.664         0.882               -0.805   0.936       0.670
+A_A23M       23   1.0206     1.942        -0.023               -1.256   0.000       0.357
+A_E56T       56   1.0247    -1.052         0.000                1.008   1.158      -0.089
+A_V21R       21   1.0371     1.007         0.209                0.795   0.000      -0.974
+A_D22G       22   1.0411    -1.073         0.143                1.322   0.400       0.250
+A_V29T       29   1.0484     0.022         0.327                1.723  -0.103      -0.920
+A_E56Q       56   1.0487     0.102         0.000                0.331   0.796      -0.180
+A_K31N       31   1.0487    -1.491         0.629                2.038   0.000      -0.128
+A_A23C       23   1.0512     0.683         0.096                0.244   0.000       0.029
+A_T55C       55   1.0566     0.378         0.630               -0.695   0.000       0.743
+A_A48G       48   1.0658     0.000         0.784                0.702   0.000      -0.420
+A_E56Y       56   1.0677    -0.377         0.000               -1.445   1.158       1.731
+A_Q32H       32   1.0714    -0.766         0.561               -0.448   0.000       1.724
+A_D46E       46   1.0728     0.629         0.699               -0.676   0.376       0.045
+A_N37S       37   1.0810    -0.500         0.362                0.856  -0.023       0.385
+A_K31C       31   1.0976    -1.612         0.540                1.420   0.000       0.749
+A_E56A       56   1.0997    -1.352         0.000                0.669   1.158       0.625
+A_T53R       53   1.1014     1.288         0.313               -0.445   0.000      -0.054
+A_K50C       50   1.1062    -1.358         0.194                1.522   0.000       0.749
+A_T18Y       18   1.1148     2.130        -0.482               -2.662   0.309       1.820
+A_A20S       20   1.1191     0.100        -0.875                2.382  -0.025      -0.463
+A_K31S       31   1.1194    -1.028         0.555                1.986  -0.651       0.257
+A_T18W       18   1.1217     1.941        -0.382               -2.721   0.309       1.975
+A_T55A       55   1.1245    -0.081         1.100               -0.608   0.000       0.714
+A_E15D       15   1.1250    -1.179         0.259                1.841   0.249      -0.045
+A_T55Y       55   1.1275     1.076         0.224               -1.993   0.000       1.820
+A_K13A       13   1.1485    -0.767         0.180                1.016   0.000       0.720
+A_V21A       21   1.1502    -0.048         0.660                0.745   0.000      -0.206
+A_T49C       49   1.1580     0.512         0.545               -0.933   0.291       0.743
+A_T11F       11   1.1663     0.236         0.891               -2.356   0.000       2.395
+A_K10F       10   1.1683    -0.121         0.358               -1.470   0.000       2.401
+A_T55H       55   1.1689     1.276         0.545               -2.285   0.000       1.633
+A_A23E       23   1.1788     1.617        -0.075                0.262   0.000      -0.625
+ A_N8D        8   1.1819    -0.377         0.606                0.775   0.000       0.178
+ A_K4S        4   1.1826    -0.313         0.025                1.213  -0.000       0.257
+A_D36V       36   1.1863    -0.458         1.478               -0.783   0.072       0.876
+A_V29K       29   1.1942     0.830        -0.036                1.388  -0.061      -0.926
+A_T17F       17   1.2088    -0.309         1.158               -2.284   0.249       2.395
+A_A24F       24   1.2261     0.429         0.256               -1.140   0.000       1.681
+A_T17I       17   1.2384     0.467         1.179               -1.925   0.249       1.269
+A_V29A       29   1.2425    -0.025        -0.351                1.824   0.000      -0.206
+A_K50Q       50   1.2442    -0.286         0.409                1.385  -0.179      -0.085
+A_T25E       25   1.2448     0.975        -0.581                0.388   0.374       0.089
+A_D40M       40   1.2476     0.906         1.036               -1.721   0.000       1.027
+A_A23N       23   1.2502     1.014        -0.053                1.137   0.000      -0.848
+A_T53H       53   1.2553     1.341         0.482               -2.217   0.016       1.633
+A_A23V       23   1.2581     0.154         0.991               -0.093   0.000       0.206
+A_E27G       27   1.2644    -1.912         0.996                1.976   0.000       0.205
+A_A20T       20   1.2733     0.270        -0.919                2.644  -0.007      -0.714
+A_E56R       56   1.2795     0.191         0.000                0.073   1.158      -0.143
+A_T49K       49   1.2833     0.702         1.221               -0.925   0.291      -0.006
+A_T44M       44   1.2940     1.107         0.819               -1.758   0.056       1.071
+ A_N8S        8   1.2960    -0.347         1.156                0.103   0.000       0.385
+A_T49L       49   1.3044     0.080         1.238               -1.273   0.291       0.969
+A_L12T       12   1.3079    -0.321         0.238                2.360   0.000      -0.969
+A_E19G       19   1.3133    -0.935         1.422                0.621   0.000       0.205
+ A_T2M        2   1.3367     1.427         0.419               -1.581   0.000       1.071
+A_E56C       56   1.3534    -0.983         0.000                0.524   1.158       0.654
+A_T49S       49   1.3603     0.140         0.922                0.014   0.034       0.251
+ A_T2Q        2   1.3664     1.337         0.555               -0.434   0.000      -0.091
+ A_I6H        6   1.3690    -0.478         1.396                0.052   0.035       0.364
+A_E42G       42   1.3714    -1.012         1.264                0.914   0.000       0.205
+A_K28C       28   1.3734    -0.658         0.592                0.689   0.000       0.749
+A_D40A       40   1.3738    -0.132         1.636               -0.800   0.000       0.670
+A_T11A       11   1.3858    -0.239         0.920               -0.010   0.000       0.714
+A_D22Q       22   1.3895     0.357         1.621               -1.389   0.936      -0.135
+A_A23R       23   1.3899     2.253         0.122               -0.218   0.000      -0.768
+A_N37D       37   1.3959     0.138         0.060                0.881   0.139       0.178
+A_D46S       46   1.4011    -0.032         1.023               -0.138   0.341       0.207
+A_T49V       49   1.4024    -0.025         0.778               -0.651   0.380       0.920
+A_T55R       55   1.4099     1.359         0.487               -0.381   0.000      -0.054
+A_T51M       51   1.4127     0.629         0.180               -1.080   0.612       1.071
+A_T16Q       16   1.4167     0.254         1.121               -0.117   0.249      -0.091
+A_A34T       34   1.4172     1.777         0.669                0.851  -1.164      -0.714
+A_K28D       28   1.4259    -0.568         0.222                1.721   0.000       0.050
+A_K50E       50   1.4293    -0.644         0.340                1.639   0.000       0.095
+A_T11D       11   1.4301     0.099         0.792                0.496   0.000       0.044
+A_K10G       10   1.4331    -0.810         1.041                0.902   0.000       0.300
+A_T49W       49   1.4387     0.506         0.982               -2.331   0.307       1.975
+A_T55S       55   1.4393     0.279         0.932                0.032  -0.054       0.251
+A_D22M       22   1.4466     0.329         1.526               -2.371   0.936       1.027
+A_K28S       28   1.4468    -0.363         0.442                1.158  -0.047       0.257
+A_V21M       21   1.4506     0.800         0.420                0.080   0.000       0.151
+A_V29R       29   1.4645     1.151        -0.132                1.492  -0.073      -0.974
+A_L12H       12   1.4670     0.951         0.534               -0.682   0.000       0.664
+A_T53F       53   1.4692     3.178         0.228               -3.969  -0.363       2.395
+A_N37A       37   1.4796    -0.670         1.109                0.054   0.139       0.848
+A_V29E       29   1.4803     0.879        -0.262                2.278  -0.584      -0.831
+ A_T2H        2   1.4842     0.542         0.444               -1.135   0.000       1.633
+A_K50D       50   1.4876    -0.875        -0.483                2.795   0.000       0.050
+A_T11N       11   1.4999     0.401         1.134                0.099   0.000      -0.134
+A_Q32C       32   1.5021    -0.675         0.804                0.539   0.000       0.834
+ A_M1P        1   1.5058    -0.613         0.000                0.787   0.536      -0.114     0.909
+A_D47P       47   1.5432    -1.089        -0.157                1.601   0.016       0.913     0.259
+A_T17K       17   1.5439     0.594         1.607               -0.651   0.000      -0.006
+A_T17H       17   1.5521     0.092         0.951               -1.372   0.249       1.633
+A_T49R       49   1.5529     1.375         0.770               -0.693   0.155      -0.054
+A_A24G       24   1.5576     0.000         1.071                0.907   0.000      -0.420
+A_Q32D       32   1.5677    -0.578         0.447                1.564   0.000       0.135
+A_T25N       25   1.5721     0.251         0.236                0.811   0.408      -0.134
+A_T55F       55   1.5779     1.079         0.184               -2.081   0.000       2.395
+A_T17C       17   1.5983    -0.305         0.660                0.252   0.249       0.743
+ A_T2K        2   1.6081     1.550         0.650               -0.586   0.000      -0.006
+A_T55E       55   1.6142     0.861         0.687               -0.023   0.000       0.089
+A_D46A       46   1.6359    -0.229         1.584               -0.766   0.376       0.670
+A_T53C       53   1.6359     0.199         0.506                0.188   0.000       0.743
+A_Q32S       32   1.6386    -0.374         0.690                1.018  -0.038       0.342
+A_T55W       55   1.6502     2.001         0.266               -2.591   0.000       1.975
+A_E56F       56   1.6543    -0.308         0.000               -1.502   1.158       2.306
+A_T44R       44   1.6714     1.078         0.859               -0.188  -0.023      -0.054
+A_A34V       34   1.6749     0.021         0.339                1.109   0.000       0.206
+A_K13S       13   1.6787    -0.207         0.213                1.481  -0.066       0.257
+A_D22K       22   1.6880    -0.163         1.979               -0.478   0.400      -0.050
+A_K31D       31   1.6902    -1.525         0.292                2.874   0.000       0.050
+A_N37I       37   1.7017     0.182         0.594               -0.616   0.139       1.403
+A_T16K       16   1.7018     0.478         1.034               -0.054   0.249      -0.006
+A_A20C       20   1.7066     0.864        -0.744                1.557   0.000       0.029
+A_D22H       22   1.7073     1.404         0.548               -2.770   0.936       1.589
+A_A23D       23   1.7241     1.304        -0.052                1.163  -0.021      -0.670
+A_N35G       35   1.7363    -1.225         0.701                1.833   0.000       0.428
+A_K50G       50   1.7366    -1.553        -0.324                3.314   0.000       0.300
+A_T17S       17   1.7382    -0.478         0.897                0.819   0.249       0.251
+A_T11R       11   1.7449     0.831         1.124               -0.156   0.000      -0.054
+ A_G9A        9   1.7522     0.000         1.703               -0.371   0.000       0.420
+A_T55L       55   1.7535     0.851         0.216               -0.283   0.000       0.969
+A_T49D       49   1.7663     0.938         0.535               -0.058   0.307       0.044
+A_A23L       23   1.7730     3.697        -0.056               -2.123   0.000       0.255
+A_E56S       56   1.7803    -0.968         0.000                1.428   1.158       0.162
+ A_T2C        2   1.7818     0.379         0.405                0.255   0.000       0.743
+A_A48V       48   1.7835     0.980         0.825               -0.228   0.000       0.206
+A_T18F       18   1.7837     1.951        -0.419               -2.452   0.309       2.395
+ A_L7M        7   1.7847    -0.929         0.466                1.897   0.249       0.102
+A_D47L       47   1.7897     2.154         0.291               -1.581   0.000       0.925
+A_T11H       11   1.8169     0.426         1.011               -1.252   0.000       1.633
+A_A34S       34   1.8246     0.466         0.844                1.109  -0.131      -0.463
+A_V29N       29   1.8379     0.293         0.551                2.048   0.000      -1.054
+A_E56H       56   1.8498     0.175         0.000               -0.789   0.920       1.544
+A_T25D       25   1.9013     0.221        -0.077                1.305   0.408       0.044
+A_T25S       25   1.9021     0.405         0.189                0.747   0.310       0.251
+A_T11S       11   1.9084     0.276         1.142                0.239   0.000       0.251
+A_T25C       25   1.9144     0.132         0.183                0.449   0.408       0.743
+A_E27D       27   1.9210    -0.192         0.438                1.720   0.000      -0.045
+A_D22E       22   1.9210     0.130         1.617               -0.807   0.936       0.045
+ A_I6T        6   1.9566    -1.304         1.004                3.491   0.035      -1.269
+ A_T2R        2   1.9615     1.997         0.547               -1.065   0.536      -0.054
+A_T44N       44   1.9654     0.533         1.394                0.116   0.056      -0.134
+A_T17Q       17   1.9677     0.882         1.655               -0.478   0.000      -0.091
+A_Y33L       33   2.0175     0.280        -0.111                2.700   0.000      -0.851
+A_L12M       12   2.0288     1.119         0.481                0.326   0.000       0.102
+A_T17N       17   2.0320     0.013         1.472                0.432   0.249      -0.134
+A_T49I       49   2.0346    -0.004         1.018               -0.627   0.380       1.269
+A_T16C       16   2.0360     0.657         0.742               -0.355   0.249       0.743
+A_L12Q       12   2.0435     0.856         0.623                1.691  -0.067      -1.060
+ A_M1I        1   2.0442     1.412         0.000                0.434   0.000       0.198
+A_T51C       51   2.0474     0.269         0.694               -0.023   0.364       0.743
+A_T11C       11   2.0614    -0.058         1.496               -0.120   0.000       0.743
+A_T18C       18   2.0702     0.015        -0.450                1.453   0.309       0.743
+A_T44S       44   2.0808     0.390         0.940                0.468   0.032       0.251
+A_T53E       53   2.0835     0.893         0.698                0.404   0.000       0.089
+A_T11G       11   2.0951    -0.239         1.439                0.601   0.000       0.294
+A_T18A       18   2.1010    -0.388         0.097                1.368   0.309       0.714
+A_A20V       20   2.1108     0.751         0.339                0.815   0.000       0.206
+ A_T2E        2   2.1151     0.892         0.735                0.400  -0.001       0.089
+A_E15G       15   2.1162    -1.092         1.990                0.765   0.249       0.205
+A_V21G       21   2.1165    -0.048         1.583                1.208   0.000      -0.626
+A_T18S       18   2.1231    -0.317        -0.404                2.284   0.309       0.251
+A_L12K       12   2.1232     1.142         0.446                1.511   0.000      -0.975
+A_K50A       50   2.1287    -1.553         1.409                1.553   0.000       0.720
+A_T51W       51   2.1336     0.943         0.369               -1.766   0.612       1.975
+A_A20G       20   2.1387     0.000        -0.184                2.742   0.000      -0.420
+A_T44E       44   2.1567     0.749         1.173                0.090   0.056       0.089
+A_E56N       56   2.1639     0.338         0.000                0.890   1.158      -0.223
+A_A34C       34   2.1687     0.194         0.849                1.097   0.000       0.029
+A_Y33I       33   2.1767    -0.069        -0.109                2.906   0.000      -0.551
+A_F30W       30   2.1778     0.112        -0.238                2.724   0.000      -0.420
+A_T53A       53   2.1879     0.254         1.328                0.039  -0.147       0.714
+A_T51Y       51   2.1988     2.247         0.184               -2.416   0.364       1.820
+ A_N8M        8   2.2245     0.062         2.994               -2.036   0.000       1.205
+A_T18H       18   2.2317     1.836        -0.244               -1.302   0.309       1.633
+ A_K4N        4   2.2340     0.132         0.620                1.610   0.000      -0.128
+A_T51A       51   2.2347    -0.072         1.210                0.020   0.364       0.714
+A_F30Y       30   2.2365     0.064        -0.022                2.770   0.000      -0.575
+ A_I6K        6   2.2553    -0.425         1.327                2.592   0.035      -1.275
+A_T18M       18   2.2731     0.460         0.361                0.072   0.309       1.071
+A_K13N       13   2.2900    -0.100         0.639                1.935  -0.056      -0.128
+A_T49A       49   2.2971     0.058         2.006               -0.772   0.291       0.714
+A_T53S       53   2.3030     0.183         0.805                1.064  -0.001       0.251
+A_T51F       51   2.3146     1.815         0.268               -2.527   0.364       2.395
+A_V29C       29   2.3189     0.170         0.507                1.819   0.000      -0.177
+A_Y45H       45   2.3291     0.492        -0.092                2.116   0.000      -0.187
+A_F52Y       52   2.3316     0.254         0.028                2.624   0.000      -0.575
+A_A48I       48   2.3394     0.277         0.886                0.595   0.027       0.555
+A_T51Q       51   2.3484     0.821         0.508                0.498   0.612      -0.091
+A_A23G       23   2.3666     0.000         0.777                2.009   0.000      -0.420
+A_K28G       28   2.3704    -0.852         0.888                2.033   0.000       0.300
+A_T17R       17   2.3974     1.710         1.123               -0.631   0.249      -0.054
+ A_T2A        2   2.4144     0.367         1.229               -0.432   0.536       0.714
+ A_I6M        6   2.4174     0.099         1.191                1.290   0.035      -0.198
+A_T44A       44   2.4260    -0.022         1.744               -0.066   0.056       0.714
+A_G14S       14   2.4282     0.080         2.583               -0.192   0.000      -0.043
+A_E56G       56   2.4315    -1.352         0.000                2.420   1.158       0.205
+A_T17M       17   2.4346     0.481         1.450               -0.816   0.249       1.071
+A_K50S       50   2.4543    -1.476         1.379                2.294   0.000       0.257
+A_V39L       39   2.4711     0.823         0.618                0.982   0.000       0.049
+A_Q32G       32   2.4744    -0.864         1.138                1.816   0.000       0.385
+ A_I6Q        6   2.4758    -0.404         1.470                2.734   0.035      -1.360
+A_T51L       51   2.4932     0.845         0.195               -0.184   0.668       0.969
+A_Y33H       33   2.4964     0.394         0.258                2.031   0.000      -0.187
+A_T16N       16   2.5010     0.606         1.395                0.859  -0.226      -0.134
+A_T17A       17   2.5036    -0.702         1.994                0.249   0.249       0.714
+A_L12C       12   2.5147    -0.087         0.263                2.565   0.000      -0.226
+A_E56D       56   2.5259    -0.450         0.000                1.863   1.158      -0.045
+A_T51K       51   2.5313     0.784         0.635                0.506   0.612      -0.006
+ A_L7T        7   2.5325    -2.825         0.242                6.085   0.000      -0.969
+A_G14T       14   2.5404    -1.272         4.306               -0.167  -0.034      -0.294
+ A_T2N        2   2.5724     0.754         1.142                0.810   0.000      -0.134
+A_T53Y       53   2.6005     3.281         0.127               -2.214  -0.413       1.820
+ A_T2S        2   2.6259     0.297         1.102                0.976  -0.000       0.251
+A_K31G       31   2.6539    -1.810         0.889                3.275   0.000       0.300
+ A_G9S        9   2.6912     0.166         1.015                1.926  -0.373      -0.043
+A_V29S       29   2.7039     0.441         0.498                2.506  -0.071      -0.669
+A_T55N       55   2.7070     1.235         1.338                0.310  -0.042      -0.134
+A_T49E       49   2.7256     0.894         1.804               -0.353   0.291       0.089
+A_T16S       16   2.7311     0.779         1.119                0.333   0.249       0.251
+A_T16R       16   2.7313     2.062         1.183               -0.303  -0.157      -0.054
+A_Y33V       33   2.7499    -0.150         0.090                3.710   0.000      -0.900
+A_D22Y       22   2.7622     2.740         0.424               -3.114   0.936       1.776
+A_T51S       51   2.7665     0.712         0.950                0.240   0.612       0.251
+ A_L7F        7   2.8191    -2.082         0.197                3.029   0.249       1.426
+A_K13D       13   2.8211    -0.193         0.814                2.220  -0.069       0.050
+A_T51R       51   2.8314     1.234         0.439                0.986   0.226      -0.054
+A_T16A       16   2.8367    -0.033         1.853                0.302   0.000       0.714
+A_V29D       29   2.8564     0.262         0.236                3.235   0.000      -0.876
+ A_L5F        5   2.8598     2.611         0.265               -1.691   0.249       1.426
+A_N37G       37   2.8732    -0.670         1.259                1.717   0.139       0.428
+A_K13G       13   2.8817    -0.767         1.217                2.132   0.000       0.300
+A_T17L       17   2.9026     0.322         2.501               -1.138   0.249       0.969
+A_L12N       12   2.9225     0.660         0.459                2.906  -0.000      -1.103
+A_T16E       16   2.9364     0.409         1.502                0.688   0.249       0.089
+A_T44G       44   2.9389    -0.022         1.703                0.908   0.056       0.294
+A_D22V       22   2.9478    -0.783         2.548               -0.092   0.400       0.876
+A_T25G       25   2.9523    -0.062         0.554                1.758   0.408       0.294
+A_Y33M       33   2.9578     0.755         0.029                2.923   0.000      -0.749
+ A_I6C        6   2.9739    -0.986         1.061                3.389   0.035      -0.526
+A_A26S       26   2.9882     0.653         0.841                1.957   0.000      -0.463
+A_T18I       18   3.0237     0.121         1.905               -0.581   0.309       1.269
+A_A20H       20   3.0377     1.589        -0.786                1.299   0.016       0.919
+A_T17G       17   3.0982    -0.702         1.562                1.695   0.249       0.294
+A_Y33T       33   3.0992    -0.139         0.443                5.096  -0.480      -1.820
+A_D22I       22   3.1000    -0.266         2.810               -1.605   0.936       1.225
+A_V39T       39   3.1023     0.018         0.971                3.033   0.000      -0.920
+A_G14D       14   3.1320     0.832         2.861               -0.017  -0.294      -0.250
+A_G14A       14   3.1335     0.000         3.823               -1.110   0.000       0.420
+A_L12R       12   3.1371     1.488         0.481                2.191   0.000      -1.023
+A_T16L       16   3.1397     1.363         1.664               -1.105   0.249       0.969
+ A_I6R        6   3.1454    -0.035         1.242                3.226   0.035      -1.323
+A_T53N       53   3.1591     1.050         1.123                1.125  -0.006      -0.134
+A_K50T       50   3.1717    -1.243         2.685                1.737  -0.013       0.006
+A_A20Q       20   3.1870     1.277         0.341                2.851  -0.477      -0.805
+A_T44D       44   3.2468     0.527         1.873                0.746   0.056       0.044
+A_T55D       55   3.2579     1.273         1.526                0.521  -0.106       0.044
+ A_I6E        6   3.2736    -0.118         1.340                3.796  -0.564      -1.180
+A_T49G       49   3.2924     0.058         2.412                0.237   0.291       0.294
+A_D22W       22   3.3048     3.278         0.479               -3.319   0.936       1.931
+A_T18N       18   3.3089     0.679        -0.095                2.550   0.309      -0.134
+ A_K4G        4   3.3234    -0.796         1.247                2.573   0.000       0.300
+A_T17E       17   3.3295     0.991         1.899                0.351   0.000       0.089
+A_T51E       51   3.3343     0.582         0.708                1.343   0.612       0.089
+A_T55G       55   3.3772    -0.081         2.343                0.822   0.000       0.294
+A_T17D       17   3.4521    -0.170         2.003                1.327   0.249       0.044
+ A_L7Q        7   3.4928    -0.887         0.697                4.494   0.249      -1.060
+A_T49M       49   3.4942     0.925         2.445               -1.238   0.291       1.071
+A_L12A       12   3.5018    -0.347         1.281                2.822   0.000      -0.255
+A_V54I       54   3.5225     2.612        -0.131                0.692   0.000       0.349
+A_T51H       51   3.5480     2.500         0.497               -1.695   0.612       1.633
+A_L12D       12   3.5662     0.040         0.316                4.135   0.000      -0.925
+A_L12E       12   3.5768     1.414         0.457                2.585   0.000      -0.880
+A_T18G       18   3.5890    -0.388         0.305                3.069   0.309       0.294
+A_Y33Q       33   3.5933     0.930         0.044                4.643  -0.113      -1.911
+A_T18L       18   3.5966     0.297         1.720                0.301   0.309       0.969
+ A_T2D        2   3.6024     1.259         1.266                0.497   0.536       0.044
+ A_K4D        4   3.6342     0.503         0.839                2.242   0.000       0.050
+ A_L5H        5   3.6389     0.009         0.424                2.293   0.249       0.664
+A_T18V       18   3.6391    -0.338         1.787                0.960   0.309       0.920
+A_L12S       12   3.6803    -0.084         1.170                3.312   0.000      -0.718
+A_Y33A       33   3.6830    -0.161        -0.099                5.049   0.000      -1.106
+ A_I6N        6   3.7920    -0.168         1.481                3.847   0.035      -1.403
+ A_I6A        6   3.8371    -1.332         2.190                3.498   0.035      -0.555
+A_K50V       50   3.8387    -0.995         2.846                1.061   0.000       0.926
+ A_T2G        2   3.8418     0.446         2.122                0.443   0.536       0.294
+A_A26T       26   3.8703     0.043         0.807                3.928  -0.194      -0.714
+A_D46G       46   3.9074    -0.229         2.694                0.816   0.376       0.250
+ A_L7C        7   3.9413    -2.538         0.339                6.366   0.000      -0.226
+ A_I6S        6   3.9584    -1.017         1.750                4.208   0.035      -1.018
+A_T16G       16   3.9606    -0.033         1.842                1.857   0.000       0.294
+A_T11M       11   3.9721     0.621         2.898               -0.619   0.000       1.071
+A_A34G       34   3.9868     0.000         1.214                3.193   0.000      -0.420
+A_T18Q       18   4.0157     1.486         0.712                1.622   0.286      -0.091
+A_V29G       29   4.0356    -0.025         0.864                3.822   0.000      -0.626
+A_T18D       18   4.0532     0.370         0.246                3.529  -0.135       0.044
+A_T16D       16   4.0711     1.095         1.924                1.473  -0.465       0.044
+A_D22L       22   4.1059    -0.176         2.592                0.365   0.400       0.925
+A_G14M       14   4.1274     3.088         5.152               -4.900   0.011       0.777
+ A_L7H        7   4.1283    -2.636         0.463                5.389   0.249       0.664
+A_G14C       14   4.1304     0.059         4.193               -0.571   0.000       0.449
+A_D40G       40   4.1333    -0.132         4.210               -0.195   0.000       0.250
+A_A34L       34   4.2289     0.628         0.099                3.247   0.000       0.255
+A_T53D       53   4.2299     0.663         1.514                2.008   0.000       0.044
+A_Y33K       33   4.2427     1.497         0.095                4.477   0.000      -1.826
+A_V54C       54   4.2668    -1.632         0.933                5.143   0.000      -0.177
+A_Y33R       33   4.2670     1.432         0.034                4.811  -0.137      -1.874
+A_F30H       30   4.3424     0.198        -0.101                5.007   0.000      -0.762
+A_T18R       18   4.3644     1.589         0.358                2.543  -0.071      -0.054
+A_G14N       14   4.3646     2.626         3.343               -1.425   0.249      -0.428
+A_A26V       26   4.3791    -0.385         0.531                4.563  -0.536       0.206
+A_Y33N       33   4.3810     0.204         0.875                5.256   0.000      -1.954
+A_G38N       38   4.3871     0.850         3.751                0.214   0.000      -0.428
+ A_L7A        7   4.4354    -2.873         1.224                6.339   0.000      -0.255
+ A_I6D        6   4.4829    -0.802         1.519                4.955   0.035      -1.225
+A_V39M       39   4.4918     2.796         1.083                0.462   0.000       0.151
+A_D22F       22   4.5655     2.295         0.715               -1.731   0.936       2.351
+A_Y45V       45   4.5661    -1.386        -0.139                6.992   0.000      -0.900
+A_V54T       54   4.5755    -1.668         0.934                6.230   0.000      -0.920
+A_A20M       20   4.5928     3.446        -0.107                0.897   0.000       0.357
+ A_L7K        7   4.6179    -0.896         0.634                5.962  -0.107      -0.975
+ A_L5I        5   4.6711     2.281        -0.781                2.623   0.249       0.300
+A_Y33S       33   4.6830     0.557         0.692                5.718  -0.715      -1.569
+A_Y33E       33   4.6863     0.783        -0.094                5.855  -0.126      -1.731
+A_T51N       51   4.6974     2.391         1.340                1.444  -0.343      -0.134
+A_V39C       39   4.7225     0.309         0.916                3.674   0.000      -0.177
+A_A34I       34   4.7323     1.142         0.199                2.836   0.000       0.555
+A_A26G       26   4.7331     0.000         1.206                3.947   0.000      -0.420
+A_A20E       20   4.7413     1.857         0.599                3.005  -0.095      -0.625
+ A_L7Y        7   4.7745    -1.476         0.270                4.968   0.162       0.851
+A_G38W       38   4.8397     3.004         4.766               -4.611   0.000       1.681
+ A_G9T        9   4.8621     0.302         0.856                4.385  -0.388      -0.294
+ A_Y3H        3   4.8632     0.461         0.461                4.128  -0.000      -0.187
+A_V39H       39   4.8978     1.972         1.200                1.013   0.000       0.713
+A_Y45T       45   4.8995    -1.382         0.340                7.761   0.000      -1.820
+A_A23P       23   4.9262     0.056         0.377                2.953   0.000       0.243     1.297
+A_V39Q       39   4.9579     1.018         1.187                3.764   0.000      -1.011
+ A_L5M        5   4.9587     1.266         0.543                3.048   0.000       0.102
+ A_L7E        7   4.9890    -1.325         0.605                6.589   0.000      -0.880
+A_Y33C       33   5.0093     0.502         0.488                5.097   0.000      -1.077
+A_Y45L       45   5.0107    -0.983         0.384                6.461   0.000      -0.851
+A_G14I       14   5.0255     0.008         5.885               -2.091   0.249       0.975
+A_G14Q       14   5.0666     0.408         5.809               -0.586  -0.180      -0.385
+A_A26C       26   5.0746     0.767         0.932                3.346   0.000       0.029
+A_T53G       53   5.0905     0.254         2.721                1.968  -0.147       0.294
+A_A20D       20   5.0967     2.129        -0.460                4.097   0.000      -0.670
+A_A20F       20   5.0985     1.639        -0.361                1.831   0.309       1.681
+A_Y45I       45   5.1745    -0.490         0.138                6.078   0.000      -0.551
+A_T18E       18   5.1972     1.880         0.902                2.122   0.205       0.089
+ A_L7S        7   5.2320    -2.018         1.104                6.796   0.068      -0.718
+A_Y33D       33   5.2380     0.147         0.410                6.457   0.000      -1.776
+A_V54A       54   5.2722    -2.018         2.093                5.403   0.000      -0.206
+ A_G9C        9   5.2772     0.293         1.975                2.560   0.000       0.449
+A_Y45Q       45   5.2780    -0.250         0.261                7.178   0.000      -1.911
+A_G14K       14   5.2941     1.737         5.505               -1.648   0.000      -0.300
+A_T51D       51   5.3635     0.638         1.552                2.517   0.612       0.044
+A_A20N       20   5.3801     3.724        -0.721                3.226   0.000      -0.848
+ A_L7N        7   5.3819    -1.545         0.861                6.921   0.249      -1.103
+A_W43F       43   5.3885    -0.958        -0.151                6.077   0.000       0.420
+ A_N8G        8   5.4006    -0.734         4.631                1.076   0.000       0.428
+A_V54L       54   5.4038     0.068         0.647                4.640   0.000       0.049
+A_T18K       18   5.4073     2.093         1.123                1.889   0.309      -0.006
+A_G14H       14   5.4141     1.930         4.453               -2.556   0.249       1.339
+A_A34D       34   5.4260     0.287         0.580                5.229   0.000      -0.670
+A_G14E       14   5.4386     1.409         5.391               -0.817  -0.340      -0.205
+A_F52H       52   5.4540    -0.660         0.457                6.419   0.000      -0.762
+A_G14W       14   5.5391     3.914         4.788               -5.093   0.249       1.681
+A_L12G       12   5.5757    -0.347         2.376                4.221   0.000      -0.675
+ A_G9W        9   5.5884     4.855         2.078               -4.183   1.158       1.681
+A_T51G       51   5.6270    -0.700         2.864                2.557   0.612       0.294
+A_V39N       39   5.6373     0.900         1.079                4.712   0.000      -1.054
+A_K50I       50   5.6455    -1.605         4.144                1.832   0.000       1.275
+A_A34N       34   5.6533     0.430         0.892                5.179   0.000      -0.848
+ A_L5Q        5   5.6747     0.912         0.789                5.034  -0.000      -1.060
+A_W43Y       43   5.6907    -0.916         0.077                6.684   0.000      -0.155
+A_Y45M       45   5.7335    -0.272         0.363                6.392   0.000      -0.749
+ A_G9H        9   5.7353     3.408         2.177               -2.202   1.013       1.339
+A_G14R       14   5.7690     0.983         6.049               -1.164   0.249      -0.348
+A_V39A       39   5.7822    -0.005         2.121                3.872   0.000      -0.206
+ A_G9Y        9   5.7993     3.721         2.627               -3.233   1.158       1.526
+A_V54S       54   5.8812    -1.723         1.811                6.462   0.000      -0.669
+ A_L5Y        5   5.9514     2.465         0.337                2.049   0.249       0.851
+A_V39S       39   5.9594     0.251         1.668                4.709   0.000      -0.669
+A_Y45C       45   5.9644    -1.320         0.294                8.067   0.000      -1.077
+A_G38C       38   5.9977     0.223         4.910                0.416   0.000       0.449
+A_Y33G       33   6.1328    -0.161         0.976                6.843   0.000      -1.526
+ A_L7R        7   6.1558     0.406         0.449                6.004   0.321      -1.023
+ A_I6G        6   6.2095    -1.332         3.065                5.416   0.035      -0.975
+ A_L5W        5   6.2218     1.886         0.623                2.458   0.249       1.006
+A_A20L       20   6.2437     0.675         1.013                4.301   0.000       0.255
+A_G38Q       38   6.2546     0.890         5.620                0.130   0.000      -0.385
+A_Y45R       45   6.2558     0.336         0.208                7.634  -0.049      -1.874
+A_V54E       54   6.3174    -0.813         1.392                7.427  -0.858      -0.831
+A_Y45E       45   6.3374    -0.578         0.411                8.236   0.000      -1.731
+ A_L5V        5   6.3760     2.116        -0.733                5.042   0.000      -0.049
+A_F30M       30   6.4141     0.438        -0.752                8.035   0.016      -1.324
+A_V54N       54   6.4339    -0.766         1.438                6.835  -0.019      -1.054
+A_Y45S       45   6.4752    -1.314         0.370                8.989   0.000      -1.569
+A_V39E       39   6.5028     2.062         1.128                4.248  -0.104      -0.831
+A_G14V       14   6.5186    -0.085         6.096               -0.368   0.249       0.626
+A_A34M       34   6.5263     2.009         0.183                3.978   0.000       0.357
+A_G14L       14   6.5394     1.214         6.406               -1.767   0.011       0.675
+A_W43L       43   6.6067    -0.683        -0.381                8.677   0.000      -1.006
+A_Y45N       45   6.6238    -0.347         0.536                8.394  -0.005      -1.954
+A_G38K       38   6.6261     0.644         5.972                0.311   0.000      -0.300
+A_F52I       52   6.6369    -1.565         0.152                9.176   0.000      -1.126
+A_G38M       38   6.6405     0.724         5.094                0.045   0.000       0.777
+A_G38A       38   6.6575     0.000         6.273               -0.035   0.000       0.420
+A_F52L       52   6.6611     0.278         0.022                7.705   0.083      -1.426
+A_Y45K       45   6.6979     0.367         0.335                7.822   0.000      -1.826
+A_G38H       38   6.7046     1.087         5.135               -0.856   0.000       1.339
+ A_Y3M        3   6.7265     0.706         0.247                6.523   0.000      -0.749
+A_Y45A       45   6.7325    -1.464         0.821                8.482   0.000      -1.106
+A_V54Y       54   6.7409     0.966         1.031                3.843   0.000       0.900
+A_A20R       20   6.7807     4.297         0.195                2.963   0.094      -0.768
+A_V54D       54   6.8347    -1.508         1.635                7.694  -0.110      -0.876
+A_G38R       38   6.8552     1.017         5.820                0.366   0.000      -0.348
+A_W43I       43   6.8769    -1.289        -0.876                9.748   0.000      -0.706
+A_V39D       39   6.8832     0.696         0.969                6.094   0.000      -0.876
+A_G38L       38   6.9403     0.044         6.327               -0.106   0.000       0.675
+A_V39R       39   6.9430     3.862         1.002                3.220  -0.167      -0.974
+A_G38Y       38   6.9847     0.429         5.547               -0.517   0.000       1.526
+A_F30L       30   7.0175    -0.620        -0.727                9.774   0.016      -1.426
+A_G38S       38   7.0416     0.191         6.075                0.819   0.000      -0.043
+ A_L7D        7   7.0800    -2.102         0.959                9.149  -0.001      -0.925
+A_F52V       52   7.1717    -1.744         0.237               10.153   0.000      -1.475
+A_G38T       38   7.2471     0.015         6.017                1.509   0.000      -0.294
+A_W43V       43   7.2552    -3.487        -0.731               12.529   0.000      -1.055
+A_V54F       54   7.2735     0.538         0.904                4.356   0.000       1.475
+ A_Y3L        3   7.2908    -0.184        -0.036                8.363   0.000      -0.851
+ A_L5C        5   7.2975     0.005         0.353                7.166   0.000      -0.226
+A_W43M       43   7.3483    -0.226         0.108                8.370   0.000      -0.904
+A_A20K       20   7.3636     2.575         0.937                4.572   0.000      -0.720
+A_G38E       38   7.4963     0.740         6.070                0.891   0.000      -0.205
+A_F52M       52   7.5382     0.729         0.213                7.920   0.000      -1.324
+A_G38F       38   7.5779     2.388         5.685               -2.596   0.000       2.101
+A_A20Y       20   7.6024     1.820        -0.551                5.305  -0.078       1.106
+A_G38D       38   7.6028     1.004         6.042                0.807   0.000      -0.250
+A_G14Y       14   7.6471     3.527         5.748               -3.166   0.011       1.526
+ A_L5E        5   7.6485     0.823         0.778                6.927   0.000      -0.880
+ A_Y3T        3   7.7206    -0.209         0.055                9.694   0.000      -1.820
+A_V54Q       54   7.7552    -0.953         1.555                8.730  -0.566      -1.011
+ A_L5T        5   7.7704    -0.352         0.168                8.923   0.000      -0.969
+ A_G9F        9   7.7929     4.014         3.934               -3.414   1.158       2.101
+ A_L7G        7   7.8849    -2.873         2.273                9.160   0.000      -0.675
+A_V54W       54   7.8938     1.401         1.233                4.204   0.000       1.055
+A_G38I       38   7.9021     0.105         5.978                0.844   0.000       0.975
+A_Y45D       45   7.9438    -0.981         1.064                9.638   0.000      -1.776
+ A_Y3V        3   7.9440     0.475         0.217                8.152   0.000      -0.900
+ A_L5A        5   7.9981    -1.296         1.369                8.180   0.000      -0.255
+A_A48P       48   8.0018     1.660         0.559                3.768   0.403       0.243     1.369
+A_E42P       42   8.0123    -0.533         0.420                5.523   0.000       0.868     1.735
+A_G14F       14   8.0530     4.353         5.921               -4.333   0.011       2.101
+A_A34Y       34   8.0792     4.177         0.615                2.181   0.000       1.106
+A_A20W       20   8.1132     3.305        -0.498                3.736   0.309       1.261
+A_W43T       43   8.1198    -3.458        -0.109               13.663   0.000      -1.975
+ A_L7W        7   8.1568    -1.038         0.391                7.549   0.249       1.006
+ A_Y3A        3   8.2088    -0.574         0.897                8.991   0.000      -1.106
+ A_Y3C        3   8.2366    -0.473         0.042                9.744   0.000      -1.077
+A_V54M       54   8.2497    -0.357         1.215                7.240   0.000       0.151
+A_A34F       34   8.3520     4.449         0.549                1.672   0.000       1.681
+A_F52A       52   8.4422    -2.131         0.637               11.617   0.000      -1.681
+A_G38V       38   8.4516     0.053         6.192                1.581   0.000       0.626
+A_A20I       20   8.4908     0.818         0.788                6.329   0.000       0.555
+A_V39G       39   8.5164    -0.005         3.083                6.064   0.000      -0.626
+A_A26I       26   8.5988     0.731         0.353                7.496  -0.536       0.555
+ A_G9D        9   8.6299     1.871         0.573                6.872  -0.436      -0.250
+ A_Y3S        3   8.6712    -0.053         0.248               10.044   0.000      -1.569
+A_A34H       34   8.6748     1.597         0.592                6.510  -0.943       0.919
+A_G41C       41   8.7233     0.786         1.495                4.942   1.051       0.449
+ A_L5N        5   8.7452     0.766         0.956                7.877   0.249      -1.103
+A_W43H       43   8.7455    -0.311         0.364                9.072  -0.038      -0.342
+ A_L5S        5   8.7947    -1.009         1.194                9.328   0.000      -0.718
+A_A34Q       34   8.8170     4.365         0.145                5.394  -0.282      -0.805
+A_A34E       34   8.8246     2.387         0.080                6.982   0.000      -0.625
+A_V54G       54   8.8369    -2.018         2.920                8.561   0.000      -0.626
+A_F52C       52   8.8541    -1.683         0.388               11.801   0.000      -1.652
+ A_G9N        9   8.8829     4.303         0.794                3.056   1.158      -0.428
+A_G41S       41   8.9042     0.521         1.154                7.594  -0.323      -0.043
+A_V39K       39   8.9214     4.785         1.011                4.051   0.000      -0.926
+ A_G9M        9   8.9449     1.714         1.813                4.641   0.000       0.777
+A_F52R       52   9.1072    -0.068         0.338               12.138  -0.852      -2.449
+A_F52T       52   9.1187    -1.298         0.508               12.485  -0.181      -2.395
+A_F30A       30   9.1234    -1.169        -0.806               12.762   0.016      -1.681
+A_G41A       41   9.1376     0.000         4.444                4.273   0.000       0.420
+A_V39F       39   9.3232     2.200         0.723                4.925   0.000       1.475
+ A_Y3I        3   9.3834     1.965         0.529                7.424   0.016      -0.551
+A_D36P       36   9.4409    -0.444         0.093                8.474   0.000       0.913     0.405
+A_Y45G       45   9.4428    -1.464         2.489                9.944   0.000      -1.526
+A_F30N       30   9.5013    -0.861        -0.107               12.982   0.016      -2.529
+A_F30T       30   9.5124    -0.363         0.017               12.730  -0.477      -2.395
+A_F30Q       30   9.5264    -0.047        -0.776               12.818   0.016      -2.486
+A_A26D       26   9.5349     0.724         0.628                9.389  -0.536      -0.670
+A_K10P       10   9.6034     0.718         1.708                3.657   1.158       0.963     1.399
+A_W43Q       43   9.6136    -0.076         0.436               11.319   0.000      -2.066
+A_F52S       52   9.6719    -1.332         0.575               12.573   0.000      -2.144
+ A_Y3K        3   9.6738     1.345         0.354                9.801   0.000      -1.826
+A_F30C       30   9.7464    -0.996         0.136               12.242   0.016      -1.652
+A_F52Q       52   9.9090     0.383         0.309               11.704   0.000      -2.486
+A_A26L       26  10.0201     2.806         0.185                7.310  -0.536       0.255
+A_F30V       30  10.0578     0.353        -0.146               11.310   0.016      -1.475
+ A_L5K        5  10.0824     1.284         0.799                9.628  -0.654      -0.975
+ A_Y3Q        3  10.0893     1.745         0.379               10.573  -0.697      -1.911
+A_V39Y       39  10.1061     2.322         1.086                5.196   0.602       0.900
+ A_L5D        5  10.1298    -0.422         1.136               10.341   0.000      -0.925
+A_W43C       43  10.1731    -1.086         0.073               12.418   0.000      -1.232
+A_F30I       30  10.4018    -0.694        -0.211               12.416   0.016      -1.126
+A_A34R       34  10.4291     6.356         0.214                4.774  -0.147      -0.768
+ A_Y3N        3  10.4678     0.698         0.942               10.783   0.000      -1.954
+A_F52K       52  10.4869     0.859         0.301               11.728   0.000      -2.401
+A_W43E       43  10.4919    -2.340         0.329               14.390   0.000      -1.886
+A_T25P       25  10.4954     0.998         1.720                6.213   0.541       0.957     0.067
+ A_G9V        9  10.5121     0.006         2.990                6.891   0.000       0.626
+A_W43A       43  10.5212    -3.510         0.864               14.428   0.000      -1.261
+A_F30S       30  10.5612    -0.629        -0.157               13.680  -0.189      -2.144
+A_L12P       12  10.7166     0.054         3.261                5.394   0.000      -0.012     2.020
+ A_Y3R        3  10.7608     1.992         0.346               10.297   0.000      -1.874
+A_F52N       52  10.7642    -0.600         0.726               13.167   0.000      -2.529
+A_W43S       43  10.7883    -3.105         0.698               14.919   0.000      -1.724
+ A_G9R        9  10.7925     3.653         2.298                4.341   0.849      -0.348
+A_F52E       52  10.8362    -0.364         0.535               12.972   0.000      -2.306
+A_W43K       43  10.8855    -1.800         0.277               14.390   0.000      -1.981
+ A_L5G        5  10.9865    -1.296         2.261               10.697   0.000      -0.675
+ A_Y3G        3  11.0430    -0.574         1.124               12.018   0.000      -1.526
+A_A26N       26  11.0451     2.126         1.009                8.759   0.000      -0.848
+A_W43N       43  11.0467    -0.027         0.615               12.568   0.000      -2.109
+ A_Y3E        3  11.0524     1.168         0.592               11.023   0.000      -1.731
+A_A26M       26  11.0603     2.074         0.288                8.325   0.016       0.357
+A_W43R       43  11.0926     0.183         0.273               12.666   0.000      -2.029
+ A_G9L        9  11.1431     2.698         2.636                4.083   1.051       0.675
+A_A34W       34  11.1474     3.279         0.450                6.157   0.000       1.261
+A_F30E       30  11.1687    -0.048        -0.766               14.272   0.016      -2.306
+A_V54H       54  11.2689    -0.286         1.150                9.693   0.000       0.713
+A_N35P       35  11.3012    -0.738         0.021                9.143   0.000       1.091     1.783
+A_F30D       30  11.5004    -0.882        -0.347               15.064   0.016      -2.351
+A_A24P       24  11.6316     1.288         2.609                5.928   0.541       0.243     1.023
+ A_Y3D        3  11.6678     0.006         1.082               12.356   0.000      -1.776
+ A_G9E        9  11.7219     1.334         1.868                7.674   1.051      -0.205
+ A_G9Q        9  11.7549     1.183         1.712                8.469   0.776      -0.385
+A_F30K       30  12.0805     1.283        -0.460               13.660  -0.001      -2.401
+A_F52G       52  12.2321    -2.131         1.723               14.741   0.000      -2.101
+A_W43D       43  12.3107    -2.347         0.837               15.752   0.000      -1.931
+A_W43G       43  12.3431    -3.510         1.769               15.765   0.000      -1.681
+A_Q32P       32  12.4460    -0.341         1.845                9.752   0.000       1.048     0.142
+A_F52D       52  12.4999    -0.744         1.005               14.590   0.000      -2.351
+A_A26Q       26  12.5905     3.199         0.266               10.665  -0.734      -0.805
+A_A26E       26  12.6155     1.784         0.206               11.250   0.000      -0.625
+A_G41T       41  12.6845     0.755         0.705               10.573   0.946      -0.294
+A_F30G       30  12.7812    -2.085         0.456               16.495   0.016      -2.101
+A_E56P       56  12.8277     0.307         0.000                8.799   1.158       0.868     1.695
+A_K28P       28  12.9312    -1.152         1.316               11.746   0.000       0.963     0.059
+A_V54K       54  13.0717    -0.291         1.470               13.258  -0.439      -0.926
+A_F30R       30  13.3829     2.805        -0.631               14.108  -0.450      -2.449
+A_A26P       26  13.4970     0.837         1.503               10.288   0.000       0.243     0.627
+A_A34K       34  13.5169     3.523         0.309               10.765  -0.360      -0.720
+ A_L5R        5  13.7562     4.338         0.612                9.907  -0.078      -1.023
+A_E27P       27  13.8698    -1.048         1.515               11.810   0.000       0.868     0.725
+A_V29P       29  14.0950     0.539         1.958               11.463   0.000       0.037     0.098
+ A_G9K        9  14.2807     6.842         1.807                4.773   1.158      -0.300
+A_A34P       34  14.2880     0.561         2.331               11.006   0.000       0.243     0.146
+A_A26H       26  14.6049     0.859         0.685               12.142   0.000       0.919
+A_V21P       21  14.6546     1.245         3.642                2.959   0.000       0.037     6.772
+ A_G9P        9  14.6582     1.203         1.761                9.000   0.000       0.663     2.031
+A_D46P       46  14.9760     2.036         3.942                5.822   0.439       0.913     1.824
+A_K31P       31  15.0572    -1.155         2.027               13.102   0.000       0.963     0.120
+A_V54R       54  15.3960    -0.281         1.248               16.617  -1.214      -0.974
+ A_G9I        9  16.1298     0.647         4.411               10.097   0.000       0.975
+A_A26F       26  16.1942     0.848         0.581               13.084   0.000       1.681
+A_A26K       26  16.7825     4.649         0.376               12.169   0.309      -0.720
+A_Y33P       33  17.1845     0.688         1.856               14.708   0.000      -0.863     0.796
+A_G41D       41  17.3417     1.245         0.618               15.729   0.000      -0.250
+A_G41M       41  17.8592     1.669         0.920               13.442   1.051       0.777
+A_T11P       11  17.9895     1.624         2.527                1.982   0.000       0.957    10.900
+A_W43P       43  18.0415    -1.819         3.543               16.286   0.000      -1.018     1.050
+ A_L7P        7  18.5126    -1.447         3.041               14.142   0.249      -0.012     2.540
+A_G41N       41  18.6336     1.011         0.791               17.260   0.000      -0.428
+A_V39W       39  18.7503     1.810         0.967               15.114  -0.196       1.055
+A_G38P       38  19.0424     0.694         5.823                4.379   0.000       0.663     7.484
+A_A26Y       26  20.0780     0.348         0.611               18.574  -0.561       1.106
+A_G41Q       41  20.2569     3.099         1.279               15.228   1.036      -0.385
+A_G41E       41  20.4278     1.698         2.643               15.256   1.036      -0.205
+A_V39P       39  20.4600     1.896         4.459               12.729   0.000       0.037     1.339
+A_G41V       41  20.6051    -0.029         4.450               14.522   1.036       0.626
+ A_I6P        6  20.9538     0.277         4.628               12.477   0.000      -0.312     3.884
+A_E19P       19  21.3315     0.858         3.082                2.280   0.309       0.868    13.935
+A_F52P       52  21.7437    -0.524         2.134               18.945   0.000      -1.438     2.626
+A_F30P       30  21.8016    -0.765         0.571               23.208   0.016      -1.438     0.208
+A_G41L       41  21.9115     2.567         2.488               15.279   0.902       0.675
+ A_T2P        2  22.0836     2.193         3.816                1.574   0.536       0.957    13.007
+A_G41H       41  22.7551     3.179         3.510               13.568   1.158       1.339
+A_A26R       26  23.8113     4.258         0.229               19.783   0.309      -0.768
+A_G41F       41  23.9944     3.034         2.210               15.469   1.181       2.101
+A_N37P       37  24.6332     0.307         3.149                6.498   0.139       1.091    13.449
+A_G41K       41  25.2009     4.022         1.921               18.797   0.761      -0.300
+ A_Y3P        3  25.2722     1.845         3.558               15.918   0.000      -0.863     4.815
+A_G41Y       41  26.5557     3.190         4.070               16.612   1.158       1.526
+A_G41I       41  26.8199     3.435         2.656               18.718   1.036       0.975
+A_V54P       54  26.8460     1.700         4.570                9.289   0.000       0.037    11.250
+A_G41R       41  27.2966     3.662         1.916               22.751  -0.684      -0.348
+A_A26W       26  27.6433     1.972         0.431               24.463  -0.484       1.261
+A_T55P       55  29.9501     1.831         3.849                4.291   0.000       0.957    19.023
+A_G41W       41  30.8519     1.782         2.998               24.529  -0.138       1.681
+A_K13P       13  36.2908     0.928         3.398                3.369   0.000       0.963    27.634
+ A_K4P        4  36.8730     1.073         3.200                7.738   0.000       0.963    23.899
+ A_L5P        5  37.8333    -0.085         3.866               17.066   0.249      -0.012    16.750
+A_T49P       49  41.3556     1.558         3.428                4.942   0.605       0.957    29.865
+A_T44P       44  42.7754     1.580         3.973                4.657   0.056       0.957    31.553
+A_T51P       51  43.5827     1.949         3.838               10.081   0.380       0.957    26.379
+A_T16P       16  49.8913    -0.775         4.648                6.118   0.249       0.957    38.695
+A_G41P       41  53.4044     2.068         4.871               12.025   0.000       0.663    33.777
+ A_N8P        8  58.3887     1.284         4.345                7.536   0.000       1.091    44.133
+A_D40P       40  60.1180     2.178         3.924                2.486   1.051       0.913    49.566
+A_E15P       15  61.7358     1.519         3.303                1.897   0.249       0.868    53.899
+A_T53P       53  64.8046     2.016         3.840                7.796   0.056       0.957    50.140
+A_T17P       17  66.9636     1.520         4.738                2.217   0.249       0.957    57.283
+A_Y45P       45  73.1212     1.398         3.918               10.292   0.000      -0.863    58.376
+A_A20P       20  79.5002     3.088         3.366                4.637   0.016       0.243    68.150
+A_K50P       50 105.4338     0.424         3.800                5.428   0.000       0.963    94.818
+A_D22P       22 113.4345     3.100         4.170                1.528   0.936       0.913   102.788
+A_T18P       18 115.7894     2.027         3.799                6.952   0.309       0.957   101.746
+A_G14P       14 156.2316     1.079         5.730                4.730   0.249       0.663   143.781
+
+
+Suggested mutations based on ddG calculation:
+User patch file selected: /home/ec2-user/triad-git//patch.py
+      name   wt   ss   b-fac     phi     psi   omega    rama    SASA  hydrph   chg  resclass   best_ddG  suggested muts
+   MET|A_1  MET    L     0.0   -90.0   175.7  -178.1     --   152.22    3.40   0.0     bndry:   -1.1610  LYQKWAFHVRTCG
+   THR|A_2  THR    S     0.0  -115.9   126.1   179.8     --    86.21    1.20   0.0      surf:   -1.3248  WVI
+   TYR|A_3  TYR    S     0.0  -111.1   155.0  -175.5     --     4.40   -0.70   0.0      core:   -0.0675  W
+   LYS|A_4  LYS    S     0.0  -122.9   137.8   178.2     --    67.91   -8.80   1.0      surf:   -2.7137  WYIVFTMHL
+   LEU|A_5  LEU    S     0.0  -115.5   121.9   176.7     --     0.00    2.80   0.0      core:    2.8598  None
+   ILE|A_6  ILE    S     0.0  -105.2   121.3  -178.5     --    58.01    3.10   0.0      surf:   -0.4368  WYF
+   LEU|A_7  LEU    S     0.0   -99.1   127.0   175.8     --     1.70    2.80   0.0      core:   -1.2783  IV
+   ASN|A_8  ASN    S     0.0  -126.9    72.3  -176.5     --    65.62   -4.80   0.0      surf:   -1.5515  LWVYFKIQH
+   GLY|A_9  GLY    L     0.0  -101.5  -173.7   180.0     --     1.20    1.00   0.0      core:    1.7522  None
+  LYS|A_10  LYS    L     0.0   -74.5   -36.1  -178.5     --   192.33   -8.80   1.0      surf:   -0.2077  QL
+  THR|A_11  THR    L     0.0  -112.3   -46.2  -176.7     --   139.52    1.20   0.0      surf:   -0.0975  YV
+  LEU|A_12  LEU    L     0.0  -100.1   117.8   176.8     --    65.41    2.80   0.0     bndry:   -0.3780  YW
+  LYS|A_13  LYS    L     0.0  -119.0   140.9  -179.8     --   157.62   -8.80   1.0      surf:   -0.8815  VITQ
+  GLY|A_14  GLY    S     0.0   173.1  -178.7  -178.9     --    34.00    1.00   0.0      surf:    2.4282  None
+  GLU|A_15  GLU    S     0.0  -136.2   119.8   179.5     --   111.23   -8.20  -1.0      surf:   -2.6433  VITLFHKQWMCRYSA
+  THR|A_16  THR    S     0.0  -127.2   168.6   178.7     --    50.20    1.20   0.0     bndry:   -1.2030  YWVFI
+  THR|A_17  THR    S     0.0  -134.3   171.8   174.6     --    80.02    1.20   0.0      surf:    0.1540  None
+  THR|A_18  THR    S     0.0  -151.8   171.2   178.6     --    30.31    1.20   0.0     bndry:    1.1148  None
+  GLU|A_19  GLU    S     0.0  -115.0   123.3  -177.6     --   153.84   -8.20  -1.0      surf:   -2.5075  VIYWTFLHQKCMR
+  ALA|A_20  ALA    S     0.0  -144.9   177.4  -178.6     --     3.90    1.60   0.0      core:    1.1191  None
+  VAL|A_21  VAL    L     0.0  -108.0   -14.9   176.4     --   140.32    2.60   0.0      surf:   -0.9024  T
+  ASP|A_22  ASP    H     0.0  -154.1   179.2  -177.5     --    71.71   -9.20  -1.0      surf:   -0.3120  NTS
+  ALA|A_23  ALA    H     0.0   -83.1   -14.0   176.5     --    33.30    1.60   0.0     bndry:   -1.2512  WH
+  ALA|A_24  ALA    H     0.0   -72.1   -44.5   178.5     --    57.60    1.60   0.0      surf:   -0.4680  VLTIQ
+  THR|A_25  THR    H     0.0   -65.9   -43.0   178.7     --    54.91    1.20   0.0     bndry:   -1.1902  WLYFVKI
+  ALA|A_26  ALA    H     0.0   -60.2   -42.8   178.5     --     0.00    1.60   0.0      core:    2.9882  None
+  GLU|A_27  GLU    H     0.0   -60.5   -44.3   179.7     --    65.12   -8.20  -1.0      surf:   -4.4787  YWFLHAKQMTR
+  LYS|A_28  LYS    H     0.0   -63.4   -40.0   178.1     --   142.72   -8.80   1.0      surf:   -0.9961  WLIYQV
+  VAL|A_29  VAL    H     0.0   -65.4   -42.7   179.4     --    62.31    2.60   0.0     bndry:   -1.9001  WYIFL
+  PHE|A_30  PHE    H     0.0   -66.5   -35.9   177.5     --     2.10    3.70   0.0      core:    2.1778  None
+  LYS|A_31  LYS    H     0.0   -64.7   -43.8   178.7     --    94.72   -8.80   1.0      surf:   -2.2420  WIHRVLQFYMA
+  GLN|A_32  GLN    H     0.0   -65.5   -40.2   179.3     --   121.83   -4.10   0.0      surf:   -1.5659  WLI
+  TYR|A_33  TYR    H     0.0   -61.2   -49.3  -179.8     --    94.31   -0.70   0.0     bndry:    0.1978  None
+  ALA|A_34  ALA    H     0.0   -65.7   -42.7  -178.9     --     0.00    1.60   0.0      core:    1.4172  None
+  ASN|A_35  ASN    H     0.0   -67.2   -28.8   178.0     --    78.52   -4.80   0.0      surf:   -2.9394  YWFLHMQKAIV
+  ASP|A_36  ASP    H     0.0   -76.4    -7.2   177.4     --   125.33   -9.20  -1.0      surf:   -2.1603  WYLSKQNFTAHM
+  ASN|A_37  ASN    H     0.0  -110.6    -1.0   177.4     --    70.82   -4.80   0.0     bndry:   -1.6563  YHWFTLQKV
+  GLY|A_38  GLY    L     0.0   104.2    12.1  -176.6     --    65.81    1.00   0.0      surf:    4.3871  None
+  VAL|A_39  VAL    L     0.0  -105.4   116.8   178.3     --     0.00    2.60   0.0      core:   -0.2795  I
+  ASP|A_40  ASP    L     0.0  -130.6    95.8  -175.4     --   117.03   -9.20  -1.0      surf:   -0.3346  WNIVFH
+  GLY|A_41  GLY    L     0.0  -128.7  -164.2   177.4     --    17.10    1.00   0.0      surf:    8.7233  None
+  GLU|A_42  GLU    S     0.0   -83.8   133.2  -177.6     --   132.83   -8.20  -1.0      surf:   -1.2370  VTKILWQYHAR
+  TRP|A_43  TRP    S     0.0  -103.9   128.6   174.3     --    63.01    1.90   0.0     bndry:    5.3885  None
+  THR|A_44  THR    S     0.0  -121.2   163.1  -177.2     --    80.71    1.20   0.0      surf:   -0.9183  YFVI
+  TYR|A_45  TYR    S     0.0  -141.2   124.7   177.4     --    82.61   -0.70   0.0     bndry:    0.8382  None
+  ASP|A_46  ASP    S     0.0  -105.0   111.5  -177.9     --    72.22   -9.20  -1.0      surf:   -1.4161  WYIFVLH
+  ASP|A_47  ASP    L     0.0   -75.7   -12.7  -179.9     --    84.82   -9.20  -1.0      surf:   -1.4071  SWAHKQYNCER
+  ALA|A_48  ALA    L     0.0   -84.2   -16.8   178.4     --   104.81    1.60   0.0      surf:   -0.6029  TSQLNK
+  THR|A_49  THR    L     0.0  -122.4     3.1  -179.2     --    92.61    1.20   0.0      surf:    0.0062  None
+  LYS|A_50  LYS    S     0.0    59.9    48.9  -175.7     --    65.31   -8.80   1.0      core:   -2.6492  WHYFN
+  THR|A_51  THR    S     0.0  -125.4   128.1   174.4     --     9.60    1.20   0.0      surf:   -0.5149  VI
+  PHE|A_52  PHE    S     0.0   -99.6   142.2   178.5     --     5.00    3.70   0.0      core:   -0.4450  W
+  THR|A_53  THR    S     0.0  -129.9   127.0   178.5     --    34.60    1.20   0.0      surf:   -1.7839  IV
+  VAL|A_54  VAL    S     0.0  -111.9   120.4  -174.9     --     0.00    2.60   0.0      core:    3.5225  None
+  THR|A_55  THR    S     0.0  -121.0   130.8   177.9     --    54.61    1.20   0.0      surf:   -0.8210  VI
+  GLU|A_56  GLU    S     0.0  -103.1   130.0   999.9     --    70.02   -8.20  -1.0     bndry:   -0.4645  WVIM
+
+Date: Tue Nov 28 03:47:27 UTC 2023
+Total time:  .010 hours
+
+Timing:                                atexit.py:24  ; time  700.29 s /   706.27; mem  550.859 mb "Exiting"
+Date: Tue Nov 28 03:47:29 UTC 2023
+Total time:  .196 hours

@@ -1,0 +1,405 @@
+
+Will email: zshivji@caltech.edu
+analysis/designBuilder.py
+   -aas A/1-56 '[]' add
+   -input.inputStructure 5088
+Loading attribute 43: 1SS.attr
+Loading attribute 388: 3NY.attr
+Loading attribute 381: 5BU.attr
+Loading attribute 384: 6NT.attr
+Loading attribute 355: 9UY.attr
+Loading attribute 350: 9UY_triad_dihedral.attr
+Loading attribute 395: ABU.attr
+Loading attribute 398: ACH.attr
+Loading attribute 60: ACY.attr
+Loading attribute 437: ATP.attr
+Loading attribute 380: AzF.attr
+Loading attribute 7: B2C.attr
+Loading attribute 4: B2T.attr
+Loading attribute 40: BET.attr
+Loading attribute 366: CBV.attr
+Loading attribute 69: CH6.attr
+Loading attribute 38: CHT.attr
+Loading attribute 331: CR2.attr
+Loading attribute 59: CRO.attr
+Loading attribute 321: EPJ.attr
+Loading attribute 394: FL7.attr
+Loading attribute 222: H5J.attr
+Loading attribute 285: HC4.attr
+Loading attribute 201: HC4_mannual_connect.attr
+Loading attribute 202: HC4_mannual_connect2.attr
+Loading attribute 343: IAC.attr
+Loading attribute 333: KCX.attr
+Loading attribute 220: LIG.attr
+Loading attribute 397: MES.attr
+Loading attribute 45: MOL.attr
+Loading attribute 400: NAD.attr
+Loading attribute 50: NCT.attr
+Loading attribute 106: NRQ (1).attr
+Loading attribute 173: NRQ.attr
+Loading attribute 101: NRQ[1931].attr
+Loading attribute 117: NRQ_Roberto.attr
+Loading attribute 119: NRQ_fromRoberto.attr
+Loading attribute 314: PCA.attr
+Loading attribute 317: PCZ.attr
+Loading attribute 42: POP.attr
+Loading attribute 54: QMR.attr
+Loading attribute 412: SMA.attr
+Loading attribute 387: SO4.attr
+Loading attribute 438: SUB.attr
+Loading attribute 326: TIP.attr
+Loading attribute 386: TLA.attr
+/home/ec2-user/triad-git/apps/analysis/designBuilder.py -aas A/1-56 '[]' add -input.inputStructure 5088 --blockUntilFinished --outputJson --mergedPDB --timing
+Contents of /home/ec2-user/triad-git/www/data/designBuilder_2941_7gNLdB/2941_designBuilder.out:Date: Sun Nov 26 06:46:11 UTC 2023
+git revision: edd9f1886
+User patch file selected: /home/ec2-user/triad-git//patch.py
+Applying command line argument: --timing
+
+Using seed = 123456
+Timing:                   ForcefieldOptionSet.py:1497; time    2.05 s /     2.05; mem  547.723 mb "built fff"
+Input structure 5088: 1pga_prepared_phoenix.pdb
+Timing:                          structfileIO.py:383 ; time    0.12 s /     2.17; mem  549.719 mb "read 1pga_prepared_phoenix"
+Timing:                     ForcefieldFactory.py:497 ; time    4.50 s /     6.67; mem  550.262 mb "applying attributes to 1pga_prepared_phoenix"
+Timing:                         designBuilder.py:109 ; time    0.05 s /     6.72; mem  550.262 mb "finalize"
+Timing:                     ForcefieldFactory.py:497 ; time    0.46 s /     7.18; mem  550.383 mb "applying attributes to 1pga_prepared_phoenix"
+User patch file selected: /home/ec2-user/triad-git//patch.py
+Timing:                   ForcefieldOptionSet.py:1497; time    0.19 s /     7.37; mem  550.383 mb "built fff"
+Timing:                     ForcefieldFactory.py:497 ; time    4.09 s /    11.46; mem  552.035 mb "applying attributes to 1pga_prepared_phoenix"
+Timing:                               Mutator.py:137 ; time    0.81 s /    12.26; mem  552.035 mb __init__
+Timing:      CombinatorialStructureConversion.py:26  ; time    0.13 s /    12.40; mem  552.277 mb __init__
+Timing:              StructureEnergyEvaluator.py:522 ; time    0.04 s /    12.44; mem  552.277 mb makeMultibodyEvaluators
+Timing:              StructureEnergyEvaluator.py:132 ; time    0.04 s /    12.48; mem  552.402 mb makeIntraParameters
+Timing:              StructureEnergyEvaluator.py:143 ; time    0.03 s /    12.51; mem  552.465 mb makeReferenceAndIntraEvaluators
+Timing:              StructureEnergyEvaluator.py:391 ; time    0.03 s /    12.54; mem  552.465 mb makeContexts
+Timing:              StructureEnergyEvaluator.py:203 ; time    0.07 s /    12.61; mem  552.465 mb makeTemplateEvaluators
+Timing:              StructureEnergyEvaluator.py:518 ; time    0.14 s /    12.74; mem  552.465 mb makeInterEvaluators
+Timing:              StructureEnergyEvaluator.py:122 ; time    0.04 s /    12.78; mem  552.465 mb __init__
+Timing:                        EnergyAnalysis.py:456 ; time    0.15 s /    12.93; mem  552.527 mb setupEnergies
+Timing: get secondary structure types DSSP:       0.02
+Timing: Surface::updateBalls: 0.000653557
+Timing: Mesh: 2.47334
+Timing: make SASA:       0.06
+Timing:                               Mutator.py:137 ; time    3.45 s /    16.38; mem  582.918 mb __init__
+Timing:      CombinatorialStructureConversion.py:26  ; time    0.12 s /    16.50; mem  582.918 mb __init__
+Timing:              StructureEnergyEvaluator.py:522 ; time    0.03 s /    16.54; mem  582.918 mb makeMultibodyEvaluators
+Timing:              StructureEnergyEvaluator.py:132 ; time    0.08 s /    16.62; mem  582.980 mb makeIntraParameters
+Timing:              StructureEnergyEvaluator.py:143 ; time    0.04 s /    16.65; mem  582.980 mb makeReferenceAndIntraEvaluators
+Timing:              StructureEnergyEvaluator.py:391 ; time    0.02 s /    16.68; mem  582.980 mb makeContexts
+Timing:              StructureEnergyEvaluator.py:203 ; time    0.16 s /    16.84; mem  582.980 mb makeTemplateEvaluators
+Timing:              StructureEnergyEvaluator.py:518 ; time    0.54 s /    17.37; mem  582.980 mb makeInterEvaluators
+Timing:              StructureEnergyEvaluator.py:122 ; time    0.04 s /    17.41; mem  582.980 mb __init__
+Timing:                        EnergyAnalysis.py:456 ; time    0.18 s /    17.59; mem  583.180 mb setupEnergies
+Timing: Surface::updateBalls: 0.000579436
+
+Solvent accessible cavities (SAC)
+ sac#      vol    area
+    0:   16.95   32.20
+total:   16.95   32.20
+Timing: Time to calculate SAC:      0.152
+
+Monomers within 5A of cavities:
+  pid  restype
+ A_31: LYS
+ A_34: ALA
+ A_35: ASN
+ A_39: VAL
+ A_40: ASP
+ A_41: GLY
+ A_43: TRP
+
+Solvent excluded cavity (SXC)
+ sxc#      vol    area
+    0:  999.60 5136.95
+TOTAL:  999.60 5136.95
+Timing: Time to calculate SXC:      3.218
+
+Total solvent excluded volume by residue:
+Note: total SXV will differ with that above due to SIMD approx
+
+      name   wt   ss   b-fac     phi     psi   omega    rama    SASA  hydrph   chg  resclass     SXV  zscore
+Timing: SXV by atom:       0.31
+   MET|A_1  MET    L     --    -90.0   149.5   179.2     --   130.81    3.40   0.0      surf:  21.25    0.15 
+   THR|A_2  THR    S     --   -110.4   129.2  -179.7  -0.029   84.81    1.20   0.0      surf:  17.07    0.42 
+   TYR|A_3  TYR    S     --   -118.0   155.0   175.5  -0.129    2.30   -0.70   0.0      core:  22.02   -0.75 
+   LYS|A_4  LYS    S     --   -109.0   157.6   175.7  -0.114   92.12   -8.80   1.0      surf:  25.48    0.59 
+   LEU|A_5  LEU    S     --   -134.8   121.3   176.8   0.118    0.00    2.80   0.0      core:  15.16   -1.06 
+   ILE|A_6  ILE    S     --   -107.3   124.3  -176.9  -0.240   49.90    3.10   0.0      surf:  21.50    0.42 
+   LEU|A_7  LEU    S     --   -112.0   113.1   171.7   0.045    0.00    2.80   0.0      core:  18.38   -0.52 
+   ASN|A_8  ASN    S     --   -113.5    70.2   178.1   0.251   60.72   -4.80   0.0      surf:  25.79    2.84 *** poor packing? Vol > 15.8 + 3.5 ***
+   GLY|A_9  GLY    L     --    -91.1  -165.7   176.7  -0.058    3.20    1.00   0.0      core:  12.37    0.76 
+  LYS|A_10  LYS    L     --    -85.6   -39.0  -177.5  -0.089  198.62   -8.80   1.0      surf:  22.32   -0.06 
+  THR|A_11  THR    L     --   -123.1   -17.2   176.6  -0.004  135.81    1.20   0.0      surf:  20.36    1.27 
+  LEU|A_12  LEU    L     --   -114.0   111.5   170.8   0.070   39.30    2.80   0.0     bndry:  24.79    0.58 
+  LYS|A_13  LYS    L     --   -119.5   148.3   173.9  -0.132  167.61   -8.80   1.0      surf:  26.44    0.79 
+  GLY|A_14  GLY    S     --    133.4  -152.6  -159.7   0.555   35.70    1.00   0.0      surf:   8.16   -0.17 
+  GLU|A_15  GLU    S     --   -149.8   130.7   172.2   0.176  111.33   -8.20  -1.0      surf:  20.24    0.52 
+  THR|A_16  THR    S     --   -130.7   174.1   171.7  -0.151   50.70    1.20   0.0     bndry:  18.91    0.56 
+  THR|A_17  THR    S     --   -131.7   169.9   158.1  -0.186   81.71    1.20   0.0      surf:  20.24    1.24 
+  THR|A_18  THR    S     --   -137.6   169.1   166.5  -0.168   31.60    1.20   0.0     bndry:  15.55   -0.22 
+  GLU|A_19  GLU    S     --   -100.2   130.2  -174.0  -0.053  141.32   -8.20  -1.0      surf:  16.64   -0.34 
+  ALA|A_20  ALA    S     --   -156.7   160.2  -178.7  -0.019    5.40    1.60   0.0     bndry:  13.60    0.45 
+  VAL|A_21  VAL    L     --    -79.2   -49.1  -175.2   0.053  141.71    2.60   0.0      surf:  14.83   -0.54 
+  ASP|A_22  ASP    H     --   -150.1   174.7  -179.1   0.064   74.62   -9.20  -1.0      surf:   9.31   -1.46 
+  ALA|A_23  ALA    H     --    -59.6   -39.4   176.6  -0.183   34.50    1.60   0.0      surf:  10.77   -0.20 
+  ALA|A_24  ALA    H     --    -60.3   -39.5   173.2  -0.185   78.11    1.60   0.0      surf:  11.05   -0.10 
+  THR|A_25  THR    H     --    -69.2   -49.3   178.0   0.061   47.81    1.20   0.0     bndry:  12.92   -0.84 
+  ALA|A_26  ALA    H     --    -54.7   -35.1   175.1  -0.155    0.00    1.60   0.0      core:   8.04   -0.82 
+  GLU|A_27  GLU    H     --    -65.6   -38.2  -177.2  -0.249   98.53   -8.20  -1.0      surf:  22.75    1.12 
+  LYS|A_28  LYS    H     --    -76.9   -39.5   176.3  -0.163  173.02   -8.80   1.0      surf:  25.29    0.55 
+  VAL|A_29  VAL    H     --    -62.1   -56.7  -179.9   0.167   53.70    2.60   0.0     bndry:  23.29    1.13 
+  PHE|A_30  PHE    H     --    -58.2   -56.1   168.9   0.101    1.00    3.70   0.0      core:  18.47   -1.04 
+  LYS|A_31  LYS    H     --    -41.8   -41.0   179.1   0.243  113.31   -8.80   1.0      surf:  35.40    2.63 *** poor packing? Vol > 22.6 + 4.9 ***
+  GLN|A_32  GLN    H     --    -72.1   -39.0   175.3  -0.171  132.94   -4.10   0.0      surf:  19.85    0.25 
+  TYR|A_33  TYR    H     --    -61.3   -57.9  -177.4   0.179   79.81   -0.70   0.0     bndry:  25.58   -0.07 
+  ALA|A_34  ALA    H     --    -58.8   -39.6   175.7  -0.177    0.00    1.60   0.0      core:  14.44    0.64 
+  ASN|A_35  ASN    H     --    -70.3   -30.5  -178.7  -0.083   91.53   -4.80   0.0      surf:  24.48    2.47 *** poor packing? Vol > 15.8 + 3.5 ***
+  ASP|A_36  ASP    H     --    -80.4   -37.3   179.5  -0.128  119.83   -9.20  -1.0      surf:  14.79   -0.06 
+  ASN|A_37  ASN    H     --    -94.9    19.5   161.1  -0.187   72.72   -4.80   0.0      surf:  19.98    1.18 
+  GLY|A_38  GLY    L     --     86.1    37.2   178.9  -0.129   60.50    1.00   0.0      surf:  15.31    2.58 *** poor packing? Vol > 8.6 + 2.6 ***
+  VAL|A_39  VAL    L     --   -123.8   131.9  -177.2  -0.208    0.30    2.60   0.0      core:  28.08    2.06 *** poor packing? Vol > 17.4 + 5.2 ***
+  ASP|A_40  ASP    L     --   -156.8    96.2  -170.9   0.185  109.43   -9.20  -1.0      surf:  21.85    1.75 *** poor packing? Vol > 15.0 + 3.9 ***
+  GLY|A_41  GLY    L     --   -139.6  -163.0   170.3   0.469   27.00    1.00   0.0      surf:  10.77    0.83 
+  GLU|A_42  GLU    S     --    -80.6   138.4   177.7  -0.221  154.64   -8.20  -1.0      surf:  20.22    0.52 
+  TRP|A_43  TRP    S     --   -112.0   147.4   158.5  -0.110   63.01    1.90   0.0      surf:  44.33    4.83 *** poor packing? Vol > 25.2 + 4.0 ***
+  THR|A_44  THR    S     --   -132.3   172.5  -175.4  -0.164   92.21    1.20   0.0      surf:  24.68    2.39 *** poor packing? Vol > 15.5 + 3.9 ***
+  TYR|A_45  TYR    S     --   -148.9   129.3  -173.8   0.074   77.31   -0.70   0.0     bndry:  26.87    0.17 
+  ASP|A_46  ASP    S     --   -128.2   101.3  -177.3   0.031   75.32   -9.20  -1.0      surf:  21.02    1.54 *** poor packing? Vol > 15.0 + 3.9 ***
+  ASP|A_47  ASP    H     --    -70.4   -28.7   176.2  -0.202   83.22   -9.20  -1.0      surf:  12.42   -0.66 
+  ALA|A_48  ALA    H     --    -62.6   -19.3  -178.7  -0.239  116.51    1.60   0.0      surf:  10.64   -0.25 
+  THR|A_49  THR    H     --   -125.8     1.9  -170.7  -0.023  107.91    1.20   0.0      surf:  12.25   -0.83 
+  LYS|A_50  LYS    S     --     43.4    51.1  -173.8   0.075   71.51   -8.80   1.0     bndry:  20.44   -0.74 
+  THR|A_51  THR    S     --   -124.1   132.0   167.5  -0.010   11.10    1.20   0.0      surf:  14.55   -0.24 
+  PHE|A_52  PHE    S     --   -106.5   140.1   177.6  -0.163    2.90    3.70   0.0      core:  21.53   -0.57 
+  THR|A_53  THR    S     --   -123.9   131.2   171.8  -0.006   32.00    1.20   0.0      surf:  31.74    4.22 *** poor packing? Vol > 15.5 + 3.9 ***
+  VAL|A_54  VAL    S     --   -118.9   124.8  -174.5  -0.217    0.00    2.60   0.0      core:  20.86    0.66 
+  THR|A_55  THR    S     --   -127.5   131.5   171.2  -0.001   68.21    1.20   0.0      surf:  22.46    1.81 *** poor packing? Vol > 15.5 + 3.9 ***
+  GLU|A_56  GLU    S     --   -106.3   130.0   999.9     --   102.41   -8.20  -1.0     bndry:  23.02    0.75 
+     TOTAL: 1100.56
+Timing: make SASA:       0.06
+
+Buried waters: 
+
+Summary of potential poorly packed residues in 1pga_prepared_phoenix (core and boundary resclass only):
+
+   pid  wt  ss  resclass    SASA  near-cavs?  near-wats?    pos phi?  poorly-packed neighbors (all neighbors)
+  A_39 VAL   L      core     0.3        True       False       False  A_8:A_35:A_38:A_40 (7+8+9+10+11+12+34+35+36+37+38+40+41+54+56)
+Timing: SXV by atom:       0.31
+Timing:                         designBuilder.py:119 ; time    4.89 s /    22.48; mem  595.270 mb "cavs"
+Timing:                   ForcefieldOptionSet.py:1497; time    1.39 s /    23.87; mem  922.258 mb "built fff"
+Timing:                     ForcefieldFactory.py:497 ; time    4.50 s /    28.37; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.10 s /    28.47; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.09 s /    28.56; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    4.79 s /    33.35; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.11 s /    33.45; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.09 s /    33.55; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.09 s /    33.64; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.10 s /    33.73; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    4.85 s /    38.59; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.11 s /    38.69; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    5.01 s /    43.70; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.10 s /    43.81; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.10 s /    43.90; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.09 s /    44.00; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.09 s /    44.09; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.09 s /    44.18; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.10 s /    44.28; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.09 s /    44.37; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.09 s /    44.46; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.10 s /    44.56; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Warning: non-disulfide bonded CYS lacks HG:sequence/A/CSS|A_2
+Timing:                     ForcefieldFactory.py:497 ; time    0.09 s /    44.65; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.09 s /    44.75; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.09 s /    44.84; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.09 s /    44.93; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.09 s /    45.03; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    5.18 s /    50.20; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.11 s /    50.32; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing:                     ForcefieldFactory.py:497 ; time    0.10 s /    50.42; mem  922.258 mb "applying attributes to sequence"
+Timing: make SASA:       0.00
+Timing: calculate SAP:       0.48
+Timing:                         designBuilder.py:123 ; time    0.53 s /    50.95; mem  605.918 mb "sap"
+
+** statEnergyAnalysis forcefield used is rosetta
+User patch file selected: /home/ec2-user/triad-git//patch.py
+Timing:                   ForcefieldOptionSet.py:1497; time    1.63 s /    52.58; mem  980.074 mb "built fff"
+Timing:                          structfileIO.py:383 ; time    0.04 s /    52.61; mem  980.074 mb "read 1pga_prepared_phoenix"
+Timing:                     ForcefieldFactory.py:497 ; time    4.10 s /    56.72; mem  980.074 mb "applying attributes to 1pga_prepared_phoenix"
+Timing:                               Mutator.py:137 ; time    0.81 s /    57.53; mem  980.074 mb __init__
+Timing:      CombinatorialStructureConversion.py:26  ; time    0.14 s /    57.67; mem  980.074 mb __init__
+Timing:              StructureEnergyEvaluator.py:522 ; time    0.05 s /    57.71; mem  980.074 mb makeMultibodyEvaluators
+Timing:              StructureEnergyEvaluator.py:132 ; time    0.09 s /    57.80; mem  980.074 mb makeIntraParameters
+Timing:              StructureEnergyEvaluator.py:143 ; time    0.05 s /    57.86; mem  980.074 mb makeReferenceAndIntraEvaluators
+Timing:              StructureEnergyEvaluator.py:391 ; time    0.08 s /    57.94; mem  980.074 mb makeContexts
+Timing:              StructureEnergyEvaluator.py:203 ; time    0.17 s /    58.11; mem  980.074 mb makeTemplateEvaluators
+Timing:              StructureEnergyEvaluator.py:518 ; time    0.55 s /    58.66; mem  980.074 mb makeInterEvaluators
+Timing:              StructureEnergyEvaluator.py:122 ; time    0.05 s /    58.71; mem  980.074 mb __init__
+Timing:                        EnergyAnalysis.py:456 ; time    0.16 s /    58.87; mem  980.074 mb setupEnergies
+User patch file selected: /home/ec2-user/triad-git//patch.py
+Timing:                   ForcefieldOptionSet.py:1497; time    0.22 s /    59.09; mem  980.074 mb "built fff"
+Timing:                     ForcefieldFactory.py:497 ; time    4.30 s /    63.39; mem  980.074 mb "applying attributes to 1pga_prepared_phoenix"
+Timing:                               Mutator.py:137 ; time    0.83 s /    64.21; mem  980.074 mb __init__
+Timing:      CombinatorialStructureConversion.py:26  ; time    0.15 s /    64.36; mem  980.074 mb __init__
+Timing:              StructureEnergyEvaluator.py:522 ; time    0.06 s /    64.42; mem  980.074 mb makeMultibodyEvaluators
+Timing:              StructureEnergyEvaluator.py:132 ; time    0.06 s /    64.48; mem  980.074 mb makeIntraParameters
+Timing:              StructureEnergyEvaluator.py:143 ; time    0.04 s /    64.52; mem  980.074 mb makeReferenceAndIntraEvaluators
+Timing:              StructureEnergyEvaluator.py:391 ; time    0.04 s /    64.56; mem  980.074 mb makeContexts
+Timing:              StructureEnergyEvaluator.py:203 ; time    0.08 s /    64.64; mem  980.074 mb makeTemplateEvaluators
+Timing:              StructureEnergyEvaluator.py:518 ; time    0.15 s /    64.79; mem  980.074 mb makeInterEvaluators
+Timing:              StructureEnergyEvaluator.py:122 ; time    0.05 s /    64.85; mem  980.074 mb __init__
+Timing:                        EnergyAnalysis.py:456 ; time    0.16 s /    65.01; mem  980.074 mb setupEnergies
+Timing: get secondary structure types DSSP:       0.02
+Timing: get secondary structure types DSSP:       0.02
+Timing:                         designBuilder.py:127 ; time    0.27 s /    65.27; mem  713.523 mb "sre"
+created version "Nov30"
+Timing:                         designBuilder.py:130 ; time    0.26 s /    65.54; mem  713.523 mb "pka"
+Timing:                               Mutator.py:137 ; time    0.83 s /    66.37; mem  713.523 mb __init__
+Timing:      CombinatorialStructureConversion.py:26  ; time    0.13 s /    66.49; mem  713.523 mb __init__
+Timing:              StructureEnergyEvaluator.py:522 ; time    0.04 s /    66.54; mem  713.523 mb makeMultibodyEvaluators
+Timing:              StructureEnergyEvaluator.py:132 ; time    0.09 s /    66.62; mem  713.523 mb makeIntraParameters
+Timing:              StructureEnergyEvaluator.py:143 ; time    0.03 s /    66.66; mem  713.523 mb makeReferenceAndIntraEvaluators
+Timing:              StructureEnergyEvaluator.py:391 ; time    0.03 s /    66.69; mem  713.523 mb makeContexts
+Timing:              StructureEnergyEvaluator.py:203 ; time    0.16 s /    66.84; mem  713.523 mb makeTemplateEvaluators
+Timing:              StructureEnergyEvaluator.py:518 ; time    0.53 s /    67.38; mem  713.523 mb makeInterEvaluators
+Timing:              StructureEnergyEvaluator.py:122 ; time    0.05 s /    67.43; mem  713.523 mb __init__
+Timing:                        EnergyAnalysis.py:456 ; time    0.19 s /    67.61; mem  713.523 mb setupEnergies
+Timing:                         designBuilder.py:135 ; time    0.07 s /    67.68; mem  713.523 mb "hbonds"
+Timing:                         designBuilder.py:140 ; time    0.29 s /    67.97; mem  713.668 mb "domains"
+User patch file selected: /home/ec2-user/triad-git//patch.py
+Timing:                   ForcefieldOptionSet.py:1497; time    0.14 s /    68.11; mem  713.668 mb "built fff"
+Timing:                               Mutator.py:137 ; time    3.37 s /    71.48; mem  713.668 mb __init__
+Timing:      CombinatorialStructureConversion.py:26  ; time    0.14 s /    71.63; mem  713.668 mb __init__
+Timing:              StructureEnergyEvaluator.py:522 ; time    0.05 s /    71.68; mem  713.668 mb makeMultibodyEvaluators
+Timing:              StructureEnergyEvaluator.py:132 ; time    0.07 s /    71.75; mem  713.793 mb makeIntraParameters
+Timing:              StructureEnergyEvaluator.py:143 ; time    0.04 s /    71.79; mem  713.793 mb makeReferenceAndIntraEvaluators
+Timing:              StructureEnergyEvaluator.py:391 ; time    0.04 s /    71.83; mem  713.793 mb makeContexts
+Timing:              StructureEnergyEvaluator.py:203 ; time    0.10 s /    71.93; mem  713.793 mb makeTemplateEvaluators
+Timing:              StructureEnergyEvaluator.py:518 ; time    0.23 s /    72.16; mem  713.793 mb makeInterEvaluators
+Timing:              StructureEnergyEvaluator.py:122 ; time    0.06 s /    72.22; mem  713.793 mb __init__
+Timing:                        EnergyAnalysis.py:456 ; time    0.28 s /    72.49; mem  713.793 mb setupEnergies
+Timing:                         designBuilder.py:144 ; time    0.06 s /    72.56; mem  713.793 mb "phoenix"
+User patch file selected: /home/ec2-user/triad-git//patch.py
+Timing:                   ForcefieldOptionSet.py:1497; time    1.52 s /    74.07; mem 1037.883 mb "built fff"
+Timing:                               Mutator.py:137 ; time    4.71 s /    78.78; mem 1037.883 mb __init__
+Timing:      CombinatorialStructureConversion.py:26  ; time    0.14 s /    78.92; mem 1037.883 mb __init__
+Timing:              StructureEnergyEvaluator.py:522 ; time    0.06 s /    78.99; mem 1037.883 mb makeMultibodyEvaluators
+Timing:              StructureEnergyEvaluator.py:132 ; time    0.10 s /    79.09; mem 1037.883 mb makeIntraParameters
+Timing:              StructureEnergyEvaluator.py:143 ; time    0.04 s /    79.13; mem 1037.883 mb makeReferenceAndIntraEvaluators
+Timing:              StructureEnergyEvaluator.py:391 ; time    0.04 s /    79.17; mem 1037.883 mb makeContexts
+Timing:              StructureEnergyEvaluator.py:203 ; time    0.12 s /    79.29; mem 1037.883 mb makeTemplateEvaluators
+Timing:              StructureEnergyEvaluator.py:518 ; time    0.33 s /    79.62; mem 1037.883 mb makeInterEvaluators
+Timing:              StructureEnergyEvaluator.py:122 ; time    0.06 s /    79.68; mem 1037.883 mb __init__
+Timing:                        EnergyAnalysis.py:456 ; time    0.36 s /    80.04; mem 1037.945 mb setupEnergies
+Timing:                         designBuilder.py:147 ; time    0.08 s /    80.12; mem  869.742 mb "rosetta"
+User patch file selected: /home/ec2-user/triad-git//patch.py
+Timing:                   ForcefieldOptionSet.py:1497; time    0.11 s /    80.23; mem  869.742 mb "built fff"
+Timing:                               Mutator.py:137 ; time    3.21 s /    83.44; mem  869.742 mb __init__
+Timing:      CombinatorialStructureConversion.py:26  ; time    0.14 s /    83.58; mem  869.742 mb __init__
+Timing:              StructureEnergyEvaluator.py:522 ; time    0.05 s /    83.63; mem  869.742 mb makeMultibodyEvaluators
+Timing:              StructureEnergyEvaluator.py:132 ; time    0.09 s /    83.72; mem  869.805 mb makeIntraParameters
+Timing:              StructureEnergyEvaluator.py:143 ; time    0.04 s /    83.76; mem  869.805 mb makeReferenceAndIntraEvaluators
+Timing:              StructureEnergyEvaluator.py:391 ; time    0.04 s /    83.80; mem  869.805 mb makeContexts
+Timing:              StructureEnergyEvaluator.py:203 ; time    0.25 s /    84.05; mem  869.805 mb makeTemplateEvaluators
+Timing:              StructureEnergyEvaluator.py:518 ; time    0.85 s /    84.90; mem  869.805 mb makeInterEvaluators
+Timing:              StructureEnergyEvaluator.py:122 ; time    0.06 s /    84.96; mem  869.805 mb __init__
+Timing:                        EnergyAnalysis.py:456 ; time    0.29 s /    85.25; mem  869.848 mb setupEnergies
+Timing:                         designBuilder.py:150 ; time    0.08 s /    85.33; mem  771.480 mb "biograf"
+User patch file selected: /home/ec2-user/triad-git//patch.py
+Timing:                   ForcefieldOptionSet.py:1497; time    0.10 s /    85.43; mem  771.480 mb "built fff"
+Timing:                               Mutator.py:137 ; time    0.25 s /    85.68; mem  771.480 mb __init__
+Timing:      CombinatorialStructureConversion.py:26  ; time    0.13 s /    85.82; mem  771.480 mb __init__
+Timing:              StructureEnergyEvaluator.py:522 ; time    0.05 s /    85.87; mem  771.480 mb makeMultibodyEvaluators
+Timing:              StructureEnergyEvaluator.py:132 ; time    0.05 s /    85.92; mem  771.480 mb makeIntraParameters
+Timing:              StructureEnergyEvaluator.py:143 ; time    0.04 s /    85.95; mem  771.480 mb makeReferenceAndIntraEvaluators
+Timing:              StructureEnergyEvaluator.py:391 ; time    0.04 s /    85.99; mem  771.480 mb makeContexts
+Timing:              StructureEnergyEvaluator.py:203 ; time    0.07 s /    86.06; mem  771.480 mb makeTemplateEvaluators
+Timing:              StructureEnergyEvaluator.py:518 ; time    0.13 s /    86.19; mem  771.480 mb makeInterEvaluators
+Timing:              StructureEnergyEvaluator.py:122 ; time    0.05 s /    86.24; mem  771.480 mb __init__
+Timing:                        EnergyAnalysis.py:456 ; time    0.13 s /    86.37; mem  771.480 mb setupEnergies
+ PID Type SS Class   SAP SASA   SXV Poorly packed   SRE   pKa HB Design
+ A_1  Met  L  surf  0.01 0.79  0.15         False  1.03        0
+ A_2  Thr  S  surf -0.08 0.70  0.42         False  2.35        3
+ A_3  Tyr  S  core -0.02 0.01 -0.75         False -0.94 10.49  1
+ A_4  Lys  S  surf -0.09 0.50  0.59         False  1.03 10.59  0
+ A_5  Leu  S  core  0.00 0.00 -1.06         False -1.10        0
+ A_6  Ile  S  surf  0.03 0.29  0.42         False  0.93        0
+ A_7  Leu  S  core  0.01 0.00 -0.52         False  1.96        0
+ A_8  Asn  S  surf -0.11 0.49  2.84          True -0.15        2
+ A_9  Gly  L  core -0.09 0.14  0.76         False -0.28        0
+A_10  Lys  L  surf -0.19 1.07 -0.06         False  0.86 10.48  2
+A_11  Thr  L  surf -0.05 1.12  1.27         False  0.49        3
+A_12  Leu  L bndry  0.07 0.23  0.58         False  2.72        1
+A_13  Lys  L  surf -0.12 0.91  0.79         False  0.75 10.37  2
+A_14  Gly  S  surf -0.08 1.59 -0.17         False  0.65        0
+A_15  Glu  S  surf -0.18 0.78  0.52         False  2.96  4.41  3
+A_16  Thr  S bndry -0.01 0.42  0.56         False  0.22        1
+A_17  Thr  S  surf -0.05 0.67  1.24         False  2.17        3
+A_18  Thr  S bndry -0.03 0.26 -0.22         False  2.67        1
+A_19  Glu  S  surf -0.36 0.98 -0.34         False  2.54  3.82  3
+A_20  Ala  S bndry -0.05 0.08  0.45         False -0.23        0
+A_21  Val  L  surf  0.17 1.03 -0.54         False  4.20        2
+A_22  Asp  H  surf -0.16 0.65 -1.46         False  0.60  2.86  2
+A_23  Ala  H  surf -0.01 0.48 -0.20         False  0.70        1
+A_24  Ala  H  surf -0.04 1.10 -0.10         False  1.57        1
+A_25  Thr  H bndry  0.00 0.39 -0.84         False  0.33        1
+A_26  Ala  H  core  0.00 0.00 -0.82         False -1.23        0
+A_27  Glu  H  surf -0.21 0.69  1.12         False  0.40  4.65  2
+A_28  Lys  H  surf -0.15 0.94  0.55         False  1.21 10.43  1
+A_29  Val  H bndry  0.10 0.39  1.13         False  0.92        0
+A_30  Phe  H  core  0.02 0.01 -1.04         False  0.71        0
+A_31  Lys  H  surf -0.12 0.61  2.63          True  0.69 10.56  1
+A_32  Gln  H  surf -0.18 0.87  0.25         False  0.90        2
+A_33  Tyr  H bndry  0.09 0.39 -0.07         False  0.88 10.37  1
+A_34  Ala  H  core  0.00 0.00  0.64         False -0.91        0
+A_35  Asn  H  surf -0.19 0.73  2.47          True  1.14        3
+A_36  Asp  H  surf -0.41 1.05 -0.06         False  1.30  3.95  3
+A_37  Asn  H  surf -0.16 0.58  1.18         False  2.15        3
+A_38  Gly  L  surf -0.01 2.70  2.58          True  0.98        1
+A_39  Val  L  core -0.06 0.00  2.06          True -0.31        1
+A_40  Asp  L  surf -0.39 0.96  1.75          True  0.78  3.86  3
+A_41  Gly  L  surf -0.20 1.21  0.83         False  1.73        2
+A_42  Glu  S  surf -0.34 1.08  0.52         False  0.78  4.58  2
+A_43  Trp  S  surf  0.03 0.27  4.83          True  2.12        3
+A_44  Thr  S  surf -0.03 0.76  2.39          True  2.73        1
+A_45  Tyr  S bndry  0.01 0.38  0.17         False  1.44 11.17  3
+A_46  Asp  S  surf -0.25 0.66  1.54          True  1.62  4.04  2
+A_47  Asp  H  surf -0.27 0.73 -0.66         False  2.03  2.79  2
+A_48  Ala  H  surf -0.02 1.64 -0.25         False  1.79        2
+A_49  Thr  H  surf -0.02 0.89 -0.83         False  1.21        1
+A_50  Lys  S bndry -0.09 0.39 -0.74         False  0.53 11.90  0
+A_51  Thr  S  surf -0.00 0.09 -0.24         False  0.00        1
+A_52  Phe  S  core  0.01 0.01 -0.57         False -0.53        0
+A_53  Thr  S  surf  0.01 0.26  4.22          True  1.32        1
+A_54  Val  S  core  0.00 0.00  0.66         False -0.82        0
+A_55  Thr  S  surf -0.07 0.56  1.81          True  0.69        1
+A_56  Glu  S bndry -0.10 0.71  0.75         False -0.11  3.61  2
+
+Timing:                                atexit.py:24  ; time    1.32 s /    87.69; mem  771.480 mb "Exiting"
+Date: Sun Nov 26 06:47:39 UTC 2023
+Total time:  .024 hours

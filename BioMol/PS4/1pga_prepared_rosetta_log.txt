@@ -1,0 +1,294 @@
+
+Will email: zshivji@caltech.edu
+preparation/proteinProcess.py
+   -crosetta
+   -input.inputStructure 5082
+Loading attribute 43: 1SS.attr
+Loading attribute 388: 3NY.attr
+Loading attribute 381: 5BU.attr
+Loading attribute 384: 6NT.attr
+Loading attribute 355: 9UY.attr
+Loading attribute 350: 9UY_triad_dihedral.attr
+Loading attribute 395: ABU.attr
+Loading attribute 398: ACH.attr
+Loading attribute 60: ACY.attr
+Loading attribute 437: ATP.attr
+Loading attribute 380: AzF.attr
+Loading attribute 7: B2C.attr
+Loading attribute 4: B2T.attr
+Loading attribute 40: BET.attr
+Loading attribute 366: CBV.attr
+Loading attribute 69: CH6.attr
+Loading attribute 38: CHT.attr
+Loading attribute 331: CR2.attr
+Loading attribute 59: CRO.attr
+Loading attribute 321: EPJ.attr
+Loading attribute 394: FL7.attr
+Loading attribute 222: H5J.attr
+Loading attribute 285: HC4.attr
+Loading attribute 201: HC4_mannual_connect.attr
+Loading attribute 202: HC4_mannual_connect2.attr
+Loading attribute 343: IAC.attr
+Loading attribute 333: KCX.attr
+Loading attribute 220: LIG.attr
+Loading attribute 397: MES.attr
+Loading attribute 45: MOL.attr
+Loading attribute 400: NAD.attr
+Loading attribute 50: NCT.attr
+Loading attribute 106: NRQ (1).attr
+Loading attribute 173: NRQ.attr
+Loading attribute 101: NRQ[1931].attr
+Loading attribute 117: NRQ_Roberto.attr
+Loading attribute 119: NRQ_fromRoberto.attr
+Loading attribute 314: PCA.attr
+Loading attribute 317: PCZ.attr
+Loading attribute 42: POP.attr
+Loading attribute 54: QMR.attr
+Loading attribute 412: SMA.attr
+Loading attribute 387: SO4.attr
+Loading attribute 438: SUB.attr
+Loading attribute 326: TIP.attr
+Loading attribute 386: TLA.attr
+/home/ec2-user/triad-git/apps/preparation/proteinProcess.py -crosetta -input.inputStructure 5082 --blockUntilFinished --outputJson --mergedPDB --timing
+Contents of /home/ec2-user/triad-git/www/data/proteinProcess_2939_urC9tY/2939_proteinProcess.out:Date: Sun Nov 26 05:44:24 UTC 2023
+git revision: edd9f1886
+User patch file selected: /home/ec2-user/triad-git//patch.py
+Applying command line argument: --timing
+
+Timing:                        proteinProcess.py:108 ; time    0.55 s /     0.55; mem   78.836 mb "start pp"
+>Begin proteinProcess: [5082]
+User patch file selected: /home/ec2-user/triad-git//patch.py
+Input structure 5082: 1pga.pdb
+Timing:                   ForcefieldOptionSet.py:1497; time    1.85 s /     2.41; mem  554.984 mb "built fff"
+Removed 0 hydrogens
+Removed 20 water atoms
+Residues with missing backbone atoms not found in 1pga.
+Timing:                               process.py:171 ; time    0.05 s /     2.45; mem  386.781 mb "start cleanPDB"
+>Check/add missing residues.
+Timing:                               process.py:193 ; time    0.11 s /     2.56; mem  386.781 mb "start addMissResidue"
+Timing:                               process.py:195 ; time    1.67 s /     4.23; mem  387.309 mb "start addH"
+Timing:                   ForcefieldOptionSet.py:1497; time    1.57 s /     5.80; mem  670.633 mb "built fff"
+Timing:                     ForcefieldFactory.py:497 ; time    6.32 s /    12.12; mem  670.633 mb "applying attributes to 1pga"
+=>placeSidechain added 0 heavy atoms.
+Timing: place sidechain heavy atoms:       0.62
+Timing:                     ForcefieldFactory.py:497 ; time    0.88 s /    12.99; mem  670.633 mb "applying attributes to 1pga"
+Timing: Time place OXT:       0.00
+Timing:                   ForcefieldOptionSet.py:1497; time    1.37 s /    14.37; mem  950.469 mb "built fff"
+Timing:                     ForcefieldFactory.py:497 ; time    5.90 s /    20.27; mem  950.469 mb "applying attributes to 1pga"
+Residue 1pga/A/MET|A_1 is set to be a N-terminus.
+Timing:                   ForcefieldOptionSet.py:1497; time    1.42 s /    21.69; mem 1269.637 mb "built fff"
+Timing:                     ForcefieldFactory.py:497 ; time    6.06 s /    27.76; mem 1269.637 mb "applying attributes to 1pga"
+Timing:                     ForcefieldFactory.py:497 ; time    1.18 s /    28.94; mem 1269.809 mb "applying attributes to 1pga"
+Timing: attributes:       7.19
+Timing: fix amide H:       0.01
+Timing: place H (subtotal):       8.66
+=>placeH added ALA:30, ASN:18, ASP:20, GLN:8, GLU:30, GLY:12, ILE:11, LEU:33, LYS:78, MET:11, PHE:18, THR:77, TRP:10, TYR:27, VAL:36, total:419 hydrogens.
+Preparing for optimization...
+Timing:                             ChiRotLib.py:267 ; time    4.17 s /    33.11; mem 1002.754 mb loadBases
+Timing:                    MolecularOptimizer.py:127 ; time    0.11 s /    33.22; mem 1002.754 mb getRotamerLibrary
+Timing:                               Mutator.py:137 ; time    8.76 s /    41.98; mem 1002.855 mb __init__
+Timing:      CombinatorialStructureConversion.py:26  ; time    0.14 s /    42.12; mem 1003.043 mb __init__
+Timing:              StructureEnergyEvaluator.py:522 ; time    0.05 s /    42.17; mem 1003.043 mb makeMultibodyEvaluators
+Timing:              StructureEnergyEvaluator.py:132 ; time    0.14 s /    42.31; mem 1003.230 mb makeIntraParameters
+Timing:              StructureEnergyEvaluator.py:143 ; time    0.06 s /    42.37; mem 1003.293 mb makeReferenceAndIntraEvaluators
+Timing:              StructureEnergyEvaluator.py:391 ; time    0.08 s /    42.46; mem 1003.293 mb makeContexts
+Timing:              StructureEnergyEvaluator.py:203 ; time    0.33 s /    42.78; mem 1003.293 mb makeTemplateEvaluators
+Timing:              StructureEnergyEvaluator.py:518 ; time    1.32 s /    44.10; mem 1003.293 mb makeInterEvaluators
+Timing:              StructureEnergyEvaluator.py:122 ; time    0.07 s /    44.16; mem 1003.293 mb __init__
+Timing:                      OrientedRotamers.py:687 ; time    0.05 s /    44.21; mem 1003.293 mb orientRotamers
+Timing:                      OrientedRotamers.py:720 ; time    0.05 s /    44.26; mem 1003.293 mb doInteracting
+Timing:                      OrientedRotamers.py:580 ; time    0.08 s /    44.34; mem 1003.418 mb "25 singles"
+Timing:                            SetupSuite.py:133 ; time    0.15 s /    44.49; mem 1003.480 mb __init__
+Timing:                            SetupSuite.py:196 ; time    0.05 s /    44.53; mem 1003.480 mb "kept 68 singles of 93 considered"
+Timing:                            SetupSuite.py:308 ; time    0.04 s /    44.57; mem 1003.480 mb setupPairs
+Timing:                            SetupSuite.py:316 ; time    0.04 s /    44.61; mem 1003.480 mb setupPairs
+Timing:                            SetupSuite.py:369 ; time    0.04 s /    44.66; mem 1003.480 mb setupPairs
+Timing:                            SetupSuite.py:449 ; time    0.04 s /    44.70; mem 1003.480 mb setupPairs
+Timing:                            SetupSuite.py:546 ; time    0.05 s /    44.76; mem 1003.480 mb setupPairs
+Timing:                            SetupSuite.py:625 ; time    0.07 s /    44.82; mem 1003.480 mb setupPairs
+Timing:                            SetupSuite.py:674 ; time    0.06 s /    44.89; mem 1003.480 mb setupPairs
+Timing:                            SetupSuite.py:685 ; time    0.05 s /    44.93; mem 1003.480 mb setupPairs
+Timing:                            SetupSuite.py:735 ; time    0.04 s /    44.98; mem 1003.668 mb setupPairs
+Timing:                            SetupSuite.py:756 ; time    0.04 s /    45.02; mem 1003.727 mb setupPairs
+Timing:                            SetupSuite.py:775 ; time    0.04 s /    45.06; mem 1003.727 mb setupPairs
+Timing:                            SetupSuite.py:779 ; time    0.04 s /    45.10; mem 1003.727 mb setupPairs
+Timing:                               Mutator.py:401 ; time    0.05 s /    45.15; mem 1003.727 mb makeTorsionDescription
+Timing:                    MolecularOptimizer.py:346 ; time    0.04 s /    45.20; mem 1003.977 mb buildOptimizer
+Running optimization with mover rosettaRepackingMover...
+Timing:                            SetupSuite.py:807 ; time    0.04 s /    45.24; mem 1003.977 mb "optimization start"
+Timing:                            SetupSuite.py:809 ; time    0.11 s /    45.35; mem 1003.977 mb "optimization end"
+Timing:                        EnergyAnalysis.py:456 ; time    0.35 s /    45.70; mem 1004.102 mb setupEnergies
+Rank  Energy A A A A A  A  A  A  A  A  A  A  A  A  A  A  A  A  A  A  A  A  A  A  A
+             1 2 3 4 8 10 11 13 16 17 18 25 28 31 32 33 35 37 44 45 49 50 51 53 55
+  WT         M T Y K N K  T  K  T  T  T  T  K  K  Q  Y  N  N  T  Y  T  K  T  T  T
+Best 625.295 - - - - - -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+
+num solutions 1
+Timing: repack H:      16.85
+Timing: Time standardize symmetrical atom names:       0.01
+Timing:                   ForcefieldOptionSet.py:1497; time    1.75 s /    47.45; mem 1274.586 mb "built fff"
+Timing:                     ForcefieldFactory.py:497 ; time    6.71 s /    54.17; mem 1274.586 mb "applying attributes to 1pga_beforeMin"
+Timing:      CombinatorialStructureConversion.py:26  ; time    0.28 s /    54.45; mem 1274.586 mb __init__
+Timing:              StructureEnergyEvaluator.py:522 ; time    0.05 s /    54.50; mem 1274.586 mb makeMultibodyEvaluators
+Timing:              StructureEnergyEvaluator.py:132 ; time    0.12 s /    54.62; mem 1274.586 mb makeIntraParameters
+Timing:              StructureEnergyEvaluator.py:143 ; time    0.05 s /    54.68; mem 1274.586 mb makeReferenceAndIntraEvaluators
+Timing:              StructureEnergyEvaluator.py:391 ; time    0.04 s /    54.71; mem 1274.586 mb makeContexts
+Timing:              StructureEnergyEvaluator.py:203 ; time    0.37 s /    55.09; mem 1274.586 mb makeTemplateEvaluators
+Timing:              StructureEnergyEvaluator.py:518 ; time    1.30 s /    56.39; mem 1274.586 mb makeInterEvaluators
+Timing:              StructureEnergyEvaluator.py:122 ; time    0.05 s /    56.44; mem 1274.586 mb __init__
+Minimization RMSD H     =    0.21034
+Minimization RMSD Non-H =    0.14133
+Minimized energy:         304.433327 kcal/mol
+Timing: minimization:       2.78
+Timing:      CombinatorialStructureConversion.py:26  ; time    0.80 s /    57.24; mem 1274.707 mb __init__
+Timing:              StructureEnergyEvaluator.py:522 ; time    0.06 s /    57.29; mem 1274.707 mb makeMultibodyEvaluators
+Timing:              StructureEnergyEvaluator.py:132 ; time    0.13 s /    57.42; mem 1274.707 mb makeIntraParameters
+Timing:              StructureEnergyEvaluator.py:143 ; time    0.05 s /    57.47; mem 1274.707 mb makeReferenceAndIntraEvaluators
+Timing:              StructureEnergyEvaluator.py:391 ; time    0.03 s /    57.50; mem 1274.707 mb makeContexts
+Timing:              StructureEnergyEvaluator.py:203 ; time    0.37 s /    57.87; mem 1274.707 mb makeTemplateEvaluators
+Timing:              StructureEnergyEvaluator.py:518 ; time    1.31 s /    59.18; mem 1274.707 mb makeInterEvaluators
+Timing:              StructureEnergyEvaluator.py:122 ; time    0.05 s /    59.23; mem 1274.707 mb __init__
+Minimization RMSD H     =    0.02795
+Minimization RMSD Non-H =    0.00000
+Minimized energy:         265.844126 kcal/mol
+Timing: minimization:       2.48
+Timing:                               Mutator.py:137 ; time    1.26 s /    60.50; mem 1274.707 mb __init__
+Timing:      CombinatorialStructureConversion.py:26  ; time    0.13 s /    60.63; mem 1274.707 mb __init__
+Timing:              StructureEnergyEvaluator.py:522 ; time    0.04 s /    60.67; mem 1274.707 mb makeMultibodyEvaluators
+Timing:              StructureEnergyEvaluator.py:132 ; time    0.13 s /    60.80; mem 1274.707 mb makeIntraParameters
+Timing:              StructureEnergyEvaluator.py:143 ; time    0.04 s /    60.84; mem 1274.707 mb makeReferenceAndIntraEvaluators
+Timing:              StructureEnergyEvaluator.py:391 ; time    0.13 s /    60.97; mem 1274.707 mb makeContexts
+Timing:              StructureEnergyEvaluator.py:203 ; time    0.37 s /    61.34; mem 1274.707 mb makeTemplateEvaluators
+Timing:              StructureEnergyEvaluator.py:518 ; time    1.31 s /    62.65; mem 1274.707 mb makeInterEvaluators
+Timing:              StructureEnergyEvaluator.py:122 ; time    0.05 s /    62.70; mem 1274.707 mb __init__
+Timing:                        EnergyAnalysis.py:456 ; time    0.10 s /    62.80; mem 1274.707 mb setupEnergies
+Timing: check chirality:       3.38
+Timing:                               Mutator.py:137 ; time    1.06 s /    63.87; mem 1274.707 mb __init__
+Timing:      CombinatorialStructureConversion.py:26  ; time    0.13 s /    64.00; mem 1274.707 mb __init__
+Timing:              StructureEnergyEvaluator.py:522 ; time    0.04 s /    64.04; mem 1274.707 mb makeMultibodyEvaluators
+Timing:              StructureEnergyEvaluator.py:132 ; time    0.13 s /    64.18; mem 1274.707 mb makeIntraParameters
+Timing:              StructureEnergyEvaluator.py:143 ; time    0.05 s /    64.23; mem 1274.707 mb makeReferenceAndIntraEvaluators
+Timing:              StructureEnergyEvaluator.py:391 ; time    0.13 s /    64.36; mem 1274.707 mb makeContexts
+Timing:              StructureEnergyEvaluator.py:203 ; time    0.38 s /    64.73; mem 1274.707 mb makeTemplateEvaluators
+Timing:              StructureEnergyEvaluator.py:518 ; time    1.30 s /    66.03; mem 1274.707 mb makeInterEvaluators
+Timing:              StructureEnergyEvaluator.py:122 ; time    0.06 s /    66.09; mem 1274.707 mb __init__
+Timing:                        EnergyAnalysis.py:456 ; time    0.10 s /    66.19; mem 1274.707 mb setupEnergies
+                  fa_pair          rama         omega        fa_dun       p_aa_pp     chirality          bond         angle       torsion     inversion     reference         table        rhbond         total
+ref:total           0.000        -3.313         0.000        62.946        -8.153         0.000         0.000         0.000         0.000         0.000       -13.170         0.000         0.000        38.310
+intra:total         0.000         0.000         0.000         0.000         0.000         0.000       157.102        50.645        67.207         0.438         0.000         0.733         0.000       276.124
+inter:total        -4.875         0.000         1.406         0.000         0.000         0.000         6.548        27.606        31.213         4.548         0.000       -68.043       -44.739       -46.338
+total:total        -4.875        -3.313         1.406        62.946        -8.153         0.000       163.650        78.251        98.420         4.985       -13.170       -67.311       -44.739       268.097
+
+TOTAL TIME:      61.85
+Input structure 5082: 1pga.pdb
+Timing:                          structfileIO.py:383 ; time    0.17 s /    66.37; mem 1009.656 mb "read 1pga"
+Timing:                          structfileIO.py:383 ; time    0.03 s /    66.39; mem 1009.656 mb "read 1pga_beforeMin"
+Input structure 5082: 1pga.pdb
+Timing:                          structfileIO.py:383 ; time    0.09 s /    66.49; mem 1009.656 mb "read 1pga"
+Timing:                          structfileIO.py:383 ; time    0.01 s /    66.50; mem 1009.656 mb "read 1pga_beforeMin"
+Added 0 ligand atoms.
+>Finished proteinProcess: ['/home/ec2-user/triad-git/www/data/proteinProcess_2939_urC9tY/1pga_process.pdb']
+Timing:                        proteinProcess.py:110 ; time    0.09 s /    66.59; mem  981.156 mb "done pp"
+Your processed files are ready: /home/ec2-user/triad-git/www/data/proteinProcess_2939_urC9tY/1pga_process.pdb
+Timing:                        proteinProcess.py:128 ; time    0.03 s /    66.62; mem  981.156 mb "start constrained refinement on 1pga"
+Using seed = 123456
+Timing:                   ForcefieldOptionSet.py:1497; time    1.27 s /    67.89; mem  981.223 mb "built fff"
+Timing:                   ForcefieldOptionSet.py:1497; time    1.20 s /    69.09; mem  981.289 mb "built fff"
+Timing:                          structfileIO.py:383 ; time    0.09 s /    69.19; mem  981.289 mb "read 1pga_process"
+Timing:                     ForcefieldFactory.py:497 ; time    4.05 s /    73.24; mem  981.289 mb "applying attributes to 1pga_process"
+Preparing for optimization...
+Timing:                             ChiRotLib.py:267 ; time    3.04 s /    76.28; mem  981.414 mb loadBases
+Timing:                    MolecularOptimizer.py:127 ; time    0.03 s /    76.31; mem  981.414 mb getRotamerLibrary
+Timing:                               Mutator.py:137 ; time    5.78 s /    82.09; mem  981.414 mb __init__
+Timing:      CombinatorialStructureConversion.py:26  ; time    0.13 s /    82.22; mem  981.414 mb __init__
+Timing:              StructureEnergyEvaluator.py:522 ; time    0.05 s /    82.27; mem  981.414 mb makeMultibodyEvaluators
+Timing:              StructureEnergyEvaluator.py:132 ; time    0.12 s /    82.39; mem  981.414 mb makeIntraParameters
+Timing:              StructureEnergyEvaluator.py:143 ; time    0.06 s /    82.45; mem  981.473 mb makeReferenceAndIntraEvaluators
+Timing:              StructureEnergyEvaluator.py:391 ; time    0.08 s /    82.53; mem  981.473 mb makeContexts
+Timing:              StructureEnergyEvaluator.py:203 ; time    0.29 s /    82.81; mem  981.473 mb makeTemplateEvaluators
+Timing:              StructureEnergyEvaluator.py:518 ; time    1.24 s /    84.05; mem  981.473 mb makeInterEvaluators
+Timing:              StructureEnergyEvaluator.py:122 ; time    0.06 s /    84.12; mem  981.473 mb __init__
+Timing:                      OrientedRotamers.py:687 ; time    0.09 s /    84.20; mem  981.473 mb orientRotamers
+Timing:                      OrientedRotamers.py:720 ; time    0.05 s /    84.25; mem  981.473 mb doInteracting
+Timing:                      OrientedRotamers.py:580 ; time    0.20 s /    84.45; mem  981.473 mb "56 singles"
+Timing:                            SetupSuite.py:133 ; time    0.13 s /    84.58; mem  981.473 mb __init__
+Timing:                            SetupSuite.py:196 ; time    0.04 s /    84.62; mem  981.473 mb "kept 1065 singles of 1506 considered"
+Timing:                            SetupSuite.py:308 ; time    0.04 s /    84.66; mem  981.473 mb setupPairs
+Timing:                            SetupSuite.py:316 ; time    0.04 s /    84.70; mem  981.473 mb setupPairs
+Timing:                            SetupSuite.py:369 ; time    0.06 s /    84.75; mem  981.473 mb setupPairs
+Timing:                            SetupSuite.py:449 ; time    0.05 s /    84.81; mem  981.473 mb setupPairs
+Timing:                            SetupSuite.py:546 ; time    0.05 s /    84.86; mem  981.473 mb setupPairs
+Timing:                            SetupSuite.py:625 ; time    0.09 s /    84.94; mem  981.473 mb setupPairs
+Timing:                            SetupSuite.py:674 ; time    0.06 s /    85.01; mem  981.473 mb setupPairs
+Timing:                            SetupSuite.py:685 ; time    0.04 s /    85.05; mem  981.473 mb setupPairs
+Timing:                            SetupSuite.py:735 ; time    0.05 s /    85.10; mem  981.473 mb setupPairs
+Number mutable sites: 56
+Timing:                            SetupSuite.py:756 ; time    0.05 s /    85.15; mem  981.473 mb setupPairs
+Timing:                            SetupSuite.py:775 ; time    0.04 s /    85.19; mem  981.473 mb setupPairs
+Timing:                            SetupSuite.py:779 ; time    0.04 s /    85.23; mem  981.473 mb setupPairs
+Timing:                               Mutator.py:401 ; time    0.09 s /    85.32; mem  981.473 mb makeTorsionDescription
+Timing:                 OptimizationProtocols.py:32  ; time    0.04 s /    85.36; mem  981.473 mb "starting 1 repeats of protocol minRelax"
+Timing:                    MolecularOptimizer.py:346 ; time    0.04 s /    85.40; mem  981.473 mb buildOptimizer
+Running optimization with mover singleCartesianMinimizerMover...
+Timing:                            SetupSuite.py:807 ; time    0.04 s /    85.44; mem  981.473 mb "optimization start"
+Timing: CFM:       4.52 minimization:  99.67% e0=      315.3539115159 e1=        3.0740272047 de=     -312.2798843112
+Timing:                            SetupSuite.py:809 ; time    4.61 s /    90.05; mem  981.508 mb "optimization end"
+Timing:                        EnergyAnalysis.py:456 ; time    0.39 s /    90.44; mem  981.508 mb setupEnergies
+Rank Energy AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                     11111111112222222222333333333344444444445555555
+            12345678901234567890123456789012345678901234567890123456
+  WT        MTYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE
+   0  3.074 --------------------------------------------------------
+
+                  fa_pair          rama         omega        fa_dun       p_aa_pp          bond         angle       torsion     inversion    restraints     reference         table        rhbond         total
+self:total          0.000        -3.304         0.000        46.275        -8.103         0.865        29.826        26.329         0.229         4.818       -13.170         0.775         0.000        84.540
+temp:total          0.000         0.000         0.000         0.000         0.000         0.054         5.812        22.306         0.000         0.000         0.000       -40.675        -3.168       -15.671
+inter:total        -4.623         0.000         2.196         0.000         0.000         0.324         3.711        14.102         0.870         0.000         0.000       -37.684       -44.692       -65.795
+total:total        -4.623        -3.304         2.196        46.275        -8.103         1.243        39.349        62.737         1.099         4.818       -13.170       -77.583       -47.860         3.074
+
+Timing:                    MolecularOptimizer.py:346 ; time    0.18 s /    90.62; mem  981.508 mb buildOptimizer
+Running optimization with mover multiRamp...
+Timing:                            SetupSuite.py:807 ; time    0.03 s /    90.65; mem  981.508 mb "optimization start"
+Timing:  RT:       0.17 dE =    -16.124 tried 1065 rotamers at 56 sites.
+Timing: CFM:       0.47 minimization:  96.79% e0=       59.1093493124 e1=      -19.6064847122 de=      -78.7158340246
+Timing:  RT:       0.18 dE =     -0.141 tried 1065 rotamers at 56 sites.
+Timing: CFM:       0.47 minimization:  96.81% e0=       -9.2235253717 e1=      -21.1104601931 de=      -11.8869348214
+Timing:  RT:       0.18 dE =     -0.098 tried 1065 rotamers at 56 sites.
+Timing: CFM:       0.47 minimization:  96.81% e0=      -21.0297833671 e1=      -21.8507793201 de=       -0.8209959530
+Timing:  RT:       0.18 dE =     -0.026 tried 1065 rotamers at 56 sites.
+Timing: CFM:       0.47 minimization:  96.77% e0=      -20.8595063942 e1=      -22.1230831086 de=       -1.2635767144
+Timing:  RT:       0.18 dE =     -0.002 tried 1065 rotamers at 56 sites.
+Timing: CFM:       0.47 minimization:  96.71% e0=      -22.1371778015 e1=      -22.3937823266 de=       -0.2566045250
+Timing:  RT:       0.18 dE =      0.000 tried 1065 rotamers at 56 sites.
+Timing: CFM:       0.47 minimization:  96.79% e0=      -22.3937823266 e1=      -22.5367584003 de=       -0.1429760738
+Timing:  RT:       0.18 dE =      0.000 tried 1065 rotamers at 56 sites.
+Timing: CFM:       0.47 minimization:  96.84% e0=      -22.5367584003 e1=      -22.6919054561 de=       -0.1551470558
+Timing:  RT:       0.18 dE =     -0.000 tried 1065 rotamers at 56 sites.
+Timing: CFM:       0.47 minimization:  96.79% e0=      -21.7861394524 e1=      -22.7486567147 de=       -0.9625172623
+Timing:  RT:       0.18 dE =      0.000 tried 1065 rotamers at 56 sites.
+Timing: CFM:       0.47 minimization:  96.75% e0=      -22.7486567147 e1=      -22.8160696574 de=       -0.0674129427
+Timing:  RT:       0.18 dE =     -0.010 tried 1065 rotamers at 56 sites.
+Timing: CFM:       0.47 minimization:  96.81% e0=      -22.8205295314 e1=      -22.8572056880 de=       -0.0366761566
+Timing:                            SetupSuite.py:809 ; time    7.86 s /    98.51; mem  981.508 mb "optimization end"
+Timing:                        EnergyAnalysis.py:456 ; time    0.34 s /    98.85; mem  981.508 mb setupEnergies
+Rank   Energy AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                       11111111112222222222333333333344444444445555555
+              12345678901234567890123456789012345678901234567890123456
+  WT          MTYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE
+   0 -121.593 --------------------------------------------------------
+
+                  fa_pair          rama         omega        fa_dun       p_aa_pp    restraints     reference         table        rhbond         total
+self:total          0.000        -3.417         0.000        28.946        -8.106         4.450       -13.170         0.830         0.000         9.534
+temp:total          0.000         0.000         0.000         0.000         0.000         0.000         0.000       -42.981        -2.621       -45.602
+inter:total        -3.824         0.000         1.962         0.000         0.000         0.000         0.000       -39.751       -43.913       -85.526
+total:total        -3.824        -3.417         1.962        28.946        -8.106         4.450       -13.170       -81.901       -46.534      -121.593
+
+Timing:                    MolecularOptimizer.py:346 ; time    0.18 s /    99.03; mem  981.508 mb buildOptimizer
+Running optimization with mover enableCovalent...
+Timing:                            SetupSuite.py:807 ; time    0.03 s /    99.06; mem  981.508 mb "optimization start"
+Timing:                            SetupSuite.py:809 ; time    0.06 s /    99.12; mem  981.508 mb "optimization end"
+Timing:                 OptimizationProtocols.py:38  ; time    0.07 s /    99.19; mem  981.508 mb "finished protocol repeat 1 of 1, estimated completion in 0.0 minutes"
+Timing:                        proteinProcess.py:137 ; time    0.26 s /    99.45; mem  981.508 mb "done constrained refinement"
+Timing:                                atexit.py:24  ; time    0.04 s /    99.48; mem  981.508 mb "Exiting"
+Date: Sun Nov 26 05:46:03 UTC 2023
+Total time:  .027 hours
